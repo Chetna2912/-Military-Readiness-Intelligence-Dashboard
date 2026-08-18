@@ -4,6 +4,11 @@ A full-stack, synthetic-data dashboard for exploring military-style operational 
 
 > **Important:** This is an educational/portfolio application. All included data is synthetic and fictitious. It is not an operational military system and should not be used for real-world command, targeting, personnel, or security decisions.
 
+
+## Live Demo
+https://military-readiness-intelligence.onrender.com/
+
+
 ## What the project does
 
 The application combines a FastAPI backend, SQLite database, and React/Vite frontend into one deployable web application.
