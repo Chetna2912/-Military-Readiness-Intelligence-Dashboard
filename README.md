@@ -19,28 +19,6 @@ The application combines a FastAPI backend, SQLite database, and React/Vite fron
 - **Alerts** — critical-readiness alerts for units below the configured threshold.
 - **Upload & Review** — CSV upload, schema validation, duplicate/blank primary-key checks, preview, append/upsert, and replace modes.
 
-## Architecture
-
-```text
-Browser
-  │
-  ▼
-React + Vite frontend
-  │
-  │ /api requests
-  ▼
-FastAPI backend
-  │
-  ├── Dashboard APIs
-  ├── Dataset APIs
-  ├── Search / pagination
-  ├── CSV export
-  └── Upload → validate → preview → commit
-  │
-  ▼
-SQLite
-data/generated/readiness.db
-'''
 
 ## 🧰 Tech Stack
 
@@ -69,6 +47,41 @@ data/generated/readiness.db
 - Hugging Face Spaces
 
 
+## Architecture
+
+```text
+Browser
+  │
+  ▼
+React + Vite frontend
+  │
+  │ /api requests
+  ▼
+FastAPI backend
+  │
+  ├── Dashboard APIs
+  ├── Dataset APIs
+  ├── Search / pagination
+  ├── CSV export
+  └── Upload → validate → preview → commit
+  │
+  ▼
+SQLite
+data/generated/readiness.db
+
+
+## How to run
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+pytest -q
+python -m uvicorn backend.app.main:app --reload
+
+cd frontend
+npm install
+npm run dev
+
+
 ## 🔄 Workflow
 
 ```text
@@ -87,14 +100,3 @@ FastAPI API
 React Dashboard
    ↓
 KPIs / Charts / Alerts / Export
-
-## How to run
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-pytest -q
-python -m uvicorn backend.app.main:app --reload
-
-cd frontend
-npm install
-npm run dev
