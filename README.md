@@ -40,6 +40,7 @@ FastAPI backend
   ▼
 SQLite
 data/generated/readiness.db
+'''
 
 ## 🧰 Tech Stack
 
