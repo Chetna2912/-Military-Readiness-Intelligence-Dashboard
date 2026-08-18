@@ -1,11 +1,3 @@
----
-title: Military Readiness Intelligence Dashboard
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
----
-
 # Military Readiness Intelligence Dashboard
 
 A full-stack, synthetic-data dashboard for exploring military-style operational readiness, personnel strength, equipment availability, maintenance backlog, training completion, missions, incidents, logistics, alerts, and data quality.
@@ -48,3 +40,23 @@ FastAPI backend
   ▼
 SQLite
 data/generated/readiness.db
+
+
+## How to Run the Project
+
+### Prerequisites
+
+Make sure the following are installed:
+
+- Python 3.9+
+- Node.js 18+
+- npm
+- Git
+
+You can verify the installations with:
+
+```bash
+python3 --version
+node --version
+npm --version
+git --version
