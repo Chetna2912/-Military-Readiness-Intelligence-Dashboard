@@ -1,12 +1,41 @@
-import React,{useEffect,useState}from"react";import{createRoot}from"react-dom/client";import{ResponsiveContainer,BarChart,Bar,XAxis,YAxis,Tooltip}from"recharts";import"./styles.css";
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";,NAV=[["overview","Executive Overview"],["readiness","Operational Readiness"],["equipment","Equipment & Maintenance"],["people","Personnel & Training"],["missions","Missions & Incidents"],["quality","Data Quality"],["alerts","Alerts"],["upload","Upload & Review"]],T:any={readiness:["units"],equipment:["equipment","maintenance"],people:["personnel","training"],missions:["missions","incidents","logistics"]};const get=async(p:string)=>(await fetch(API+p)).json();
-function Table({rows,onRow}:{rows:any[],onRow?:any}){if(!rows.length)return <div className="empty">No records.</div>;let c=Object.keys(rows[0]);return <div className="table"><table><thead><tr>{c.map(x=><th>{x.replaceAll("_"," ")}</th>)}</tr></thead><tbody>{rows.map(r=><tr className={onRow?"click":""} onClick={()=>onRow?.(r)}>{c.map(x=><td>{String(r[x]??"")}</td>)}</tr>)}</tbody></table></div>}
-function App(){const[p,setP]=useState("overview"),[s,setS]=useState<any>(),[u,setU]=useState<any[]>([]),[a,setA]=useState<any[]>([]),[m,setM]=useState<any>(),[d,setD]=useState("units"),[rows,setRows]=useState<any[]>([]),[q,setQ]=useState(""),[off,setOff]=useState(0),[detail,setDetail]=useState<any>(),[file,setFile]=useState<File>(),[review,setReview]=useState<any>(),[mode,setMode]=useState("append"),[msg,setMsg]=useState("");
-const load=()=>Promise.all([get("/api/dashboard/summary"),get("/api/units"),get("/api/alerts"),get("/api/meta")]).then(([x,y,z,w])=>{setS(x);setU(y);setA(z);setM(w)});useEffect(load,[]);useEffect(()=>{if(T[p])setD(T[p][0])},[p]);useEffect(()=>{if(T[p]||p==="quality")get(`/api/data/${d}?limit=100&offset=${off}${q?"&search="+encodeURIComponent(q):""}`).then(setRows)},[p,d,off,q]);
-const prev=async()=>{if(!file)return;let f=new FormData();f.append("dataset",d);f.append("file",file);setReview(await (await fetch(API+"/api/upload/preview",{method:"POST",body:f})).json())};const commit=async()=>{if(!file)return;let f=new FormData();f.append("dataset",d);f.append("mode",mode);f.append("file",file);let r=await fetch(API+"/api/upload",{method:"POST",body:f}),j=await r.json();if(!r.ok){setMsg(JSON.stringify(j.detail));return}setMsg("Upload completed: "+j.rows_processed+" rows");load()};
-let body:any;
-if(p==="overview")body=<><div className="kpis">{s&&Object.entries({"Overall Readiness":s.overall_readiness+"%","Personnel Strength":s.personnel_strength+"%","Equipment Availability":s.equipment_availability+"%","Training Completion":s.training_completion+"%","Active Missions":s.active_missions,"Maintenance Backlog":s.maintenance_backlog,"Critical Units":s.critical_units,"Data Quality":s.data_quality_score+"%"}).map(([k,v])=><div className="card kpi"><small>{k}</small><strong>{String(v)}</strong></div>)}</div><div className="grid"><div className="card"><h2>Unit readiness ranking</h2><ResponsiveContainer width="100%" height={300}><BarChart data={u.slice(0,12)}><XAxis dataKey="unit_id"/><YAxis domain={[0,100]}/><Tooltip/><Bar dataKey="readiness_score"/></BarChart></ResponsiveContainer></div><div className="card"><h2>Priority alerts</h2>{a.map(x=><div className="alert"><b>{x.entity}</b><p>{x.explanation}</p></div>)}</div></div><div className="card"><h2>Units</h2><Table rows={u} onRow={async(x:any)=>setDetail(await get("/api/units/"+x.unit_id))}/></div></>;
-else if(p==="upload")body=<div className="upload"><div className="card"><h2>Upload & Review</h2><label>Dataset<select value={d} onChange={e=>setD(e.target.value)}>{["units","personnel","equipment","maintenance","training","missions","incidents","logistics"].map(x=><option>{x}</option>)}</select></label><label>CSV<input type="file" accept=".csv" onChange={e=>setFile(e.target.files?.[0])}/></label><label>Mode<select value={mode} onChange={e=>setMode(e.target.value)}><option value="append">Append / Upsert</option><option value="replace">Replace</option></select></label><button onClick={prev}>Validate & Preview</button><button disabled={!review?.valid} onClick={commit}>Commit Upload</button></div><div className="card"><h2>Review</h2>{review?.errors?.map((x:string)=><p className="error">{x}</p>)}{review?.valid&&<p className="success">Validation passed • {review.row_count} rows</p>}{review?.preview&&<Table rows={review.preview}/>}</div></div>;
-else{let tabs=T[p]||[];body=<><div className="toolbar"><div>{tabs.map((x:string)=><button className={d===x?"selected":""} onClick={()=>{setD(x);setOff(0)}}>{x}</button>)}</div><div><input placeholder="Search" value={q} onChange={e=>{setQ(e.target.value);setOff(0)}}/><button onClick={()=>window.open(API+"/api/export/"+d)}>Export CSV</button></div></div><div className="card"><h2>{p==="quality"?"Data Quality":NAV.find(x=>x[0]===p)?.[1]}</h2>{p==="quality"?<div className="gridcards">{m?.datasets.map((x:any)=><div className="card"><b>{x.dataset}</b><strong>{x.records}</strong><small>{x.primary_key}</small></div>)}</div>:<Table rows={p==="alerts"?a:rows}/>}<div className="pager"><button disabled={!off} onClick={()=>setOff(Math.max(0,off-100))}>Previous</button><span>{off+1}–{off+rows.length}</span><button disabled={rows.length<100} onClick={()=>setOff(off+100)}>Next</button></div></div></>}
-return <div className="app"><aside><h1>READINESS<br/>INTELLIGENCE</h1>{NAV.map(x=><button className={p===x[0]?"active":""} onClick={()=>{setP(x[0]);setOff(0);setQ("")}}>{x[1]}</button>)}</aside><main><header><div><small>CONTROL ROOM / {p.toUpperCase()}</small><h1>{NAV.find(x=>x[0]===p)?.[1]}</h1></div><button onClick={()=>setP("upload")}>⇧ Upload Data</button></header>{body}<footer>Synthetic educational portfolio • All data is fictitious.</footer></main>{detail&&<div className="modal" onClick={()=>setDetail(null)}><div className="modalbox" onClick={e=>e.stopPropagation()}><button onClick={()=>setDetail(null)}>Close</button><h2>{detail.unit.unit_name}</h2><div className="gridcards">{[["Readiness",detail.unit.readiness_score+"%"],["Personnel",detail.personnel.n],["Training",Math.round(detail.personnel.training||0)+"%"],["Equipment",Math.round(detail.equipment.availability||0)+"%"],["Maintenance",detail.maintenance.n],["Missions",detail.missions.n]].map(x=><div className="card"><small>{x[0]}</small><strong>{x[1]}</strong></div>)}</div></div></div>}{msg&&<div className="toast" onClick={()=>setMsg("")}>{msg}</div>}</div>}
-createRoot(document.getElementById("root")!).render(<App/>);
+import React, { useEffect, useState } from "react";
+import { createRoot } from "react-dom/client";
+import {
+  ResponsiveContainer,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+} from "recharts";
+import "./styles.css";
+
+const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+
+const NAV = [
+  ["overview", "Executive Overview"],
+  ["readiness", "Operational Readiness"],
+  ["equipment", "Equipment & Maintenance"],
+  ["people", "Personnel & Training"],
+  ["missions", "Missions & Incidents"],
+  ["quality", "Data Quality"],
+  ["alerts", "Alerts"],
+  ["upload", "Upload & Review"],
+];
+
+const T: Record<string, string[]> = {
+  readiness: ["units"],
+  equipment: ["equipment", "maintenance"],
+  people: ["personnel", "training"],
+  missions: ["missions", "incidents", "logistics"],
+};
+
+const get = async (path: string) => {
+  const response = await fetch(API + path);
+
+  if (!response.ok) {
+    throw new Error(`API request failed: ${response.status}`);
+  }
+
+  return response.json();
+};
