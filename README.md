@@ -1,27 +1,50 @@
-# Military Operations & Readiness Intelligence Dashboard — Full v2
+---
+title: Military Readiness Intelligence Dashboard
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+---
 
-Synthetic portfolio/educational project only. All data is fictitious.
+# Military Readiness Intelligence Dashboard
 
-## Run
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-pytest -q
-uvicorn backend.app.main:app --reload
-```
-In another terminal:
-```bash
-cd frontend
-npm install
-npm run dev
-```
+A full-stack, synthetic-data dashboard for exploring military-style operational readiness, personnel strength, equipment availability, maintenance backlog, training completion, missions, incidents, logistics, alerts, and data quality.
 
-## Interactive modules
-Every sidebar option is clickable: Executive Overview, Operational Readiness, Equipment & Maintenance, Personnel & Training, Missions & Incidents, Data Quality, Alerts, and Upload & Review.
+> **Important:** This is an educational/portfolio application. All included data is synthetic and fictitious. It is not an operational military system and should not be used for real-world command, targeting, personnel, or security decisions.
 
-## Upload
-Select a dataset → choose CSV → Validate & Preview → review errors and sample rows → choose Append/Upsert or Replace → Commit Upload. The upload is persisted to SQLite and can be reviewed through the modules.
+## What the project does
 
-## API
-`/health`, `/api/meta`, `/api/dashboard/summary`, `/api/units`, `/api/units/{unit_id}`, `/api/data/{dataset}`, `/api/alerts`, `/api/export/{dataset}`, `/api/upload/preview`, `/api/upload`.
+The application combines a FastAPI backend, SQLite database, and React/Vite frontend into one deployable web application.
+
+### Main dashboard sections
+
+- **Executive Overview** — readiness KPIs, personnel strength, equipment availability, training completion, missions, maintenance backlog, critical units, and data-quality score.
+- **Operational Readiness** — searchable unit-level readiness records and drill-down views.
+- **Equipment & Maintenance** — equipment inventory plus maintenance records and backlog.
+- **Personnel & Training** — personnel records and training completion/certification data.
+- **Missions & Incidents** — mission, incident, and logistics views.
+- **Data Quality** — dataset record counts, primary keys, and schema metadata.
+- **Alerts** — critical-readiness alerts for units below the configured threshold.
+- **Upload & Review** — CSV upload, schema validation, duplicate/blank primary-key checks, preview, append/upsert, and replace modes.
+
+## Architecture
+
+```text
+Browser
+  │
+  ▼
+React + Vite frontend
+  │
+  │ /api requests
+  ▼
+FastAPI backend
+  │
+  ├── Dashboard APIs
+  ├── Dataset APIs
+  ├── Search / pagination
+  ├── CSV export
+  └── Upload → validate → preview → commit
+  │
+  ▼
+SQLite
+data/generated/readiness.db
