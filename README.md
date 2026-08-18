@@ -47,29 +47,6 @@ The application combines a FastAPI backend, SQLite database, and React/Vite fron
 - Hugging Face Spaces
 
 
-## Architecture
-
-```text
-Browser
-  │
-  ▼
-React + Vite frontend
-  │
-  │ /api requests
-  ▼
-FastAPI backend
-  │
-  ├── Dashboard APIs
-  ├── Dataset APIs
-  ├── Search / pagination
-  ├── CSV export
-  └── Upload → validate → preview → commit
-  │
-  ▼
-SQLite
-data/generated/readiness.db
-
-
 ## How to run
 python3 -m venv .venv
 source .venv/bin/activate
