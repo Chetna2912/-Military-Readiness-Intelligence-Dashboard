@@ -1,0 +1,11 @@
+training_id,unit_id,personnel_id,training_type,training_date,completion_status,score,certification_status
+TEST-T0001,TEST-U044,TEST-P0428,Safety,2026-10-11,Completed,94.4,Certified
+TEST-T0002,TEST-U009,TEST-P0426,Field Exercise,2026-06-24,Completed,92.9,Certified
+TEST-T0003,TEST-U082,TEST-P0462,Emergency Response,2026-10-07,Failed,46.0,Not Certified
+TEST-T0004,TEST-U100,TEST-P0141,Emergency Response,2026-10-26,Completed,84.3,Certified
+TEST-T0005,TEST-U098,TEST-P0422,Annual Readiness,2027-02-28,Completed,76.4,Certified
+TEST-T0006,TEST-U050,TEST-P0486,Annual Readiness,2027-09-28,Completed,62.7,Not Certified
+TEST-T0007,TEST-U081,TEST-P0495,Technical,2026-12-21,Completed,85.3,Certified
+TEST-T0008,TEST-U015,TEST-P0038,Safety,2027-06-04,Completed,93.6,Certified
+TEST-T0009,TEST-U007,TEST-P0009,Safety,2026-07-19,Completed,96.5,Certified
+TEST-T0010,TEST-U048,TEST-P0194,Emergency Response,2026-10-10,Completed,90.7,Certified

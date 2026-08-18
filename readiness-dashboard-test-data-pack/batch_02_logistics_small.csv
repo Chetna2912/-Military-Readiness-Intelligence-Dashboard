@@ -1,0 +1,11 @@
+transaction_id,unit_id,supply_category,item_name,quantity,consumption,reorder_level,transaction_date,delivery_status
+TEST-L0001,TEST-U048,Communications,Communications Parts,3431.9,1708.5,1006.5,2027-09-08,Delivered
+TEST-L0002,TEST-U088,Medical,Fuel,4104.3,923.2,1402.6,2027-07-02,In Transit
+TEST-L0003,TEST-U097,Food,Spare Parts,1843.2,1015.2,709.5,2027-08-05,Delivered
+TEST-L0004,TEST-U092,Protection,Batteries,1139.2,795.2,311.0,2027-02-13,In Transit
+TEST-L0005,TEST-U031,Power,Protective Equipment,3399.5,1996.5,652.4,2026-10-24,Delivered
+TEST-L0006,TEST-U014,Medical,Rations,3351.9,1633.6,542.9,2026-11-05,In Transit
+TEST-L0007,TEST-U042,Food,Rations,3202.8,805.2,1173.7,2026-12-28,Pending
+TEST-L0008,TEST-U100,Food,Spare Parts,2515.6,1584.2,469.1,2026-09-14,Pending
+TEST-L0009,TEST-U010,Parts,Rations,918.1,555.2,193.6,2026-11-14,In Transit
+TEST-L0010,TEST-U041,Medical,Fuel,4332.1,1728.7,830.2,2026-12-05,Delivered

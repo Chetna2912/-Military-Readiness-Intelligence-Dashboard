@@ -1,0 +1,11 @@
+incident_id,unit_id,incident_date,incident_category,severity,status,resolution_days
+TEST-I0001,TEST-U036,2027-02-02,Equipment Failure,Medium,Open,14
+TEST-I0002,TEST-U023,2027-05-31,Equipment Failure,Low,Open,25
+TEST-I0003,TEST-U021,2026-09-25,Equipment Failure,High,Resolved,16
+TEST-I0004,TEST-U045,2027-09-23,Training Issue,Low,Investigating,6
+TEST-I0005,TEST-U076,2027-11-06,Communications Outage,High,Investigating,10
+TEST-I0006,TEST-U072,2027-07-20,Communications Outage,High,Investigating,25
+TEST-I0007,TEST-U019,2027-04-29,Training Issue,Medium,Investigating,0
+TEST-I0008,TEST-U042,2027-01-11,Logistics Delay,Medium,Investigating,7
+TEST-I0009,TEST-U079,2027-01-20,Communications Outage,High,Open,22
+TEST-I0010,TEST-U044,2026-10-06,Logistics Delay,Low,Resolved,15

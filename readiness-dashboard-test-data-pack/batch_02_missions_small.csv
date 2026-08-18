@@ -1,0 +1,11 @@
+mission_id,unit_id,mission_type,region,start_date,end_date,mission_status,personnel_deployed,equipment_deployed,mission_priority
+TEST-MS0001,TEST-U070,Border Support,Northeast,2027-03-15,2027-04-02,Planned,5,37,Low
+TEST-MS0002,TEST-U071,Disaster Response,West,2026-12-29,2027-01-28,Completed,101,38,Critical
+TEST-MS0003,TEST-U031,Border Support,Northeast,2027-06-23,2027-07-19,Planned,156,14,Low
+TEST-MS0004,TEST-U085,Logistics Support,North,2027-07-25,2027-08-05,Completed,155,13,Medium
+TEST-MS0005,TEST-U016,Logistics Support,Northeast,2027-03-04,2027-03-30,Completed,145,24,Low
+TEST-MS0006,TEST-U009,Disaster Response,South,2026-12-03,2026-12-18,Cancelled,239,56,Medium
+TEST-MS0007,TEST-U079,Joint Exercise,Central,2026-12-12,2027-01-02,Planned,13,6,High
+TEST-MS0008,TEST-U044,Disaster Response,South,2027-03-29,2027-04-05,Completed,148,50,Low
+TEST-MS0009,TEST-U062,Logistics Support,South,2027-06-18,2027-07-09,Completed,31,49,High
+TEST-MS0010,TEST-U013,Disaster Response,East,2026-10-31,2026-11-25,Active,108,51,High

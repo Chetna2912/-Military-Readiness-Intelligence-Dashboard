@@ -1,0 +1,501 @@
+personnel_id,unit_id,rank,role,specialization,training_status,training_completion_percentage,deployment_status,joining_date
+TEST-P0001,TEST-U028,Sgt,Medic,Operations,Overdue,40.7,Deployed,2025-04-22
+TEST-P0002,TEST-U084,Cpl,Technician,Mechanical,In Progress,75.1,Standby,2027-05-26
+TEST-P0003,TEST-U063,Capt,Technician,Operations,Complete,90.8,Standby,2026-03-04
+TEST-P0004,TEST-U001,Cpl,Engineer,Communications,In Progress,62.3,Standby,2025-02-15
+TEST-P0005,TEST-U046,Maj,Analyst,Medical,Complete,83.0,Standby,2025-06-03
+TEST-P0006,TEST-U019,Lt,Operator,Aviation,Overdue,43.5,Standby,2026-04-10
+TEST-P0007,TEST-U086,Maj,Operator,Mechanical,In Progress,56.0,Deployed,2027-02-11
+TEST-P0008,TEST-U077,Col,Commander,Communications,In Progress,59.5,Standby,2025-11-14
+TEST-P0009,TEST-U007,Lt,Operations,Operations,Complete,85.6,Standby,2025-11-07
+TEST-P0010,TEST-U012,Lt,Commander,Intelligence,Complete,85.9,Deployed,2026-10-19
+TEST-P0011,TEST-U084,Lt,Operations,Transport,Overdue,40.2,Deployed,2026-08-24
+TEST-P0012,TEST-U055,Col,Commander,Mechanical,In Progress,68.7,Standby,2026-10-03
+TEST-P0013,TEST-U023,Cpl,Operator,Cyber,In Progress,62.3,Available,2026-02-26
+TEST-P0014,TEST-U076,Col,Logistics,Mechanical,Overdue,36.1,Standby,2025-12-28
+TEST-P0015,TEST-U057,Maj,Operator,Mechanical,Overdue,38.1,Deployed,2025-07-05
+TEST-P0016,TEST-U093,Maj,Engineer,Aviation,Complete,90.9,Deployed,2026-01-08
+TEST-P0017,TEST-U052,Capt,Technician,Intelligence,In Progress,61.7,Deployed,2027-03-18
+TEST-P0018,TEST-U054,Cpl,Operator,Communications,In Progress,66.1,Available,2025-05-25
+TEST-P0019,TEST-U025,Lt,Engineer,Mechanical,Complete,96.4,Available,2026-07-21
+TEST-P0020,TEST-U063,Sgt,Engineer,Medical,In Progress,71.7,Standby,2026-06-23
+TEST-P0021,TEST-U024,Sgt,Commander,Aviation,Overdue,36.4,Deployed,2025-08-06
+TEST-P0022,TEST-U045,Cpl,Logistics,Aviation,Complete,96.8,Standby,2027-04-23
+TEST-P0023,TEST-U042,Cpl,Operations,Aviation,Complete,87.7,Deployed,2025-11-05
+TEST-P0024,TEST-U070,Lt,Medic,Medical,Overdue,48.0,Available,2025-08-02
+TEST-P0025,TEST-U094,Capt,Technician,Communications,In Progress,65.9,Standby,2027-04-25
+TEST-P0026,TEST-U010,Col,Commander,Transport,Complete,98.5,Deployed,2026-04-21
+TEST-P0027,TEST-U090,Maj,Operations,Transport,Complete,80.6,Standby,2025-01-15
+TEST-P0028,TEST-U085,Capt,Medic,Intelligence,Complete,95.9,Deployed,2027-03-17
+TEST-P0029,TEST-U033,Maj,Technician,Mechanical,Overdue,54.0,Standby,2026-11-23
+TEST-P0030,TEST-U003,Maj,Analyst,Medical,Complete,81.0,Available,2025-03-09
+TEST-P0031,TEST-U082,Capt,Operations,Aviation,Overdue,54.5,Deployed,2026-05-17
+TEST-P0032,TEST-U075,Lt,Medic,Medical,In Progress,69.9,Deployed,2025-09-28
+TEST-P0033,TEST-U039,Lt,Technician,Transport,In Progress,64.5,Standby,2026-10-20
+TEST-P0034,TEST-U079,Lt,Logistics,Operations,Overdue,46.8,Deployed,2026-09-03
+TEST-P0035,TEST-U074,Maj,Engineer,Medical,Complete,88.1,Deployed,2027-02-18
+TEST-P0036,TEST-U013,Capt,Analyst,Cyber,Complete,99.4,Standby,2026-07-12
+TEST-P0037,TEST-U015,Lt,Logistics,Operations,Overdue,35.9,Deployed,2026-01-31
+TEST-P0038,TEST-U015,Sgt,Analyst,Intelligence,Overdue,43.8,Available,2026-08-04
+TEST-P0039,TEST-U073,Lt,Operator,Aviation,Overdue,44.6,Available,2026-04-24
+TEST-P0040,TEST-U069,Lt,Commander,Intelligence,Overdue,35.4,Standby,2026-11-26
+TEST-P0041,TEST-U048,Col,Medic,Aviation,In Progress,66.3,Standby,2027-02-06
+TEST-P0042,TEST-U037,Sgt,Analyst,Transport,In Progress,63.5,Standby,2025-04-29
+TEST-P0043,TEST-U037,Capt,Logistics,Operations,In Progress,56.1,Standby,2026-04-23
+TEST-P0044,TEST-U018,Cpl,Operations,Aviation,In Progress,59.0,Available,2025-05-06
+TEST-P0045,TEST-U042,Maj,Medic,Medical,Overdue,41.1,Available,2025-07-27
+TEST-P0046,TEST-U096,Sgt,Medic,Mechanical,Overdue,50.9,Available,2025-05-16
+TEST-P0047,TEST-U013,Sgt,Analyst,Transport,In Progress,73.4,Deployed,2027-01-02
+TEST-P0048,TEST-U038,Sgt,Logistics,Aviation,In Progress,72.8,Available,2027-06-11
+TEST-P0049,TEST-U042,Maj,Commander,Communications,Complete,100.0,Deployed,2026-05-16
+TEST-P0050,TEST-U074,Lt,Operator,Mechanical,In Progress,63.2,Standby,2026-02-18
+TEST-P0051,TEST-U082,Maj,Medic,Cyber,Complete,91.6,Standby,2027-03-26
+TEST-P0052,TEST-U027,Cpl,Engineer,Cyber,In Progress,64.7,Standby,2026-01-10
+TEST-P0053,TEST-U059,Lt,Commander,Operations,Overdue,46.2,Available,2026-06-29
+TEST-P0054,TEST-U006,Cpl,Commander,Mechanical,Overdue,45.2,Deployed,2025-04-16
+TEST-P0055,TEST-U019,Sgt,Analyst,Medical,Overdue,40.7,Available,2026-08-27
+TEST-P0056,TEST-U027,Capt,Analyst,Mechanical,In Progress,62.6,Standby,2025-12-27
+TEST-P0057,TEST-U018,Capt,Medic,Medical,In Progress,57.1,Standby,2025-09-08
+TEST-P0058,TEST-U100,Col,Operator,Cyber,Complete,84.7,Available,2026-11-18
+TEST-P0059,TEST-U064,Cpl,Logistics,Intelligence,Complete,93.6,Deployed,2025-07-29
+TEST-P0060,TEST-U003,Capt,Operations,Operations,Overdue,48.0,Standby,2025-03-21
+TEST-P0061,TEST-U041,Cpl,Operations,Transport,Complete,83.7,Available,2025-08-10
+TEST-P0062,TEST-U095,Lt,Technician,Medical,In Progress,68.9,Available,2026-04-29
+TEST-P0063,TEST-U089,Maj,Operations,Intelligence,Complete,84.3,Standby,2025-10-30
+TEST-P0064,TEST-U029,Lt,Operations,Transport,Complete,92.6,Standby,2026-05-18
+TEST-P0065,TEST-U038,Maj,Operator,Medical,In Progress,65.2,Standby,2025-05-08
+TEST-P0066,TEST-U090,Col,Technician,Transport,Complete,88.1,Available,2025-05-08
+TEST-P0067,TEST-U063,Maj,Medic,Transport,Complete,89.6,Available,2026-06-06
+TEST-P0068,TEST-U047,Lt,Medic,Transport,Complete,97.3,Standby,2026-08-25
+TEST-P0069,TEST-U076,Capt,Operations,Communications,In Progress,68.4,Deployed,2027-03-06
+TEST-P0070,TEST-U061,Cpl,Medic,Aviation,Overdue,36.5,Standby,2026-09-29
+TEST-P0071,TEST-U078,Maj,Logistics,Aviation,Overdue,46.4,Standby,2025-04-30
+TEST-P0072,TEST-U053,Sgt,Analyst,Transport,In Progress,74.2,Available,2026-09-21
+TEST-P0073,TEST-U009,Col,Technician,Communications,In Progress,74.6,Available,2027-02-25
+TEST-P0074,TEST-U066,Cpl,Commander,Communications,Overdue,49.2,Available,2025-05-07
+TEST-P0075,TEST-U038,Sgt,Operations,Mechanical,Complete,85.3,Standby,2026-07-26
+TEST-P0076,TEST-U048,Maj,Operations,Cyber,Complete,91.9,Standby,2026-07-14
+TEST-P0077,TEST-U013,Lt,Commander,Operations,Overdue,37.5,Standby,2025-12-14
+TEST-P0078,TEST-U040,Capt,Medic,Transport,Overdue,45.7,Available,2025-09-24
+TEST-P0079,TEST-U023,Cpl,Analyst,Transport,Complete,91.4,Deployed,2025-04-30
+TEST-P0080,TEST-U071,Maj,Operations,Cyber,In Progress,63.7,Standby,2026-07-25
+TEST-P0081,TEST-U005,Lt,Commander,Mechanical,In Progress,62.9,Available,2027-01-11
+TEST-P0082,TEST-U069,Col,Engineer,Medical,Complete,88.9,Deployed,2025-05-30
+TEST-P0083,TEST-U092,Maj,Engineer,Communications,Complete,99.3,Available,2026-10-27
+TEST-P0084,TEST-U048,Cpl,Commander,Mechanical,Overdue,40.3,Deployed,2025-06-07
+TEST-P0085,TEST-U002,Cpl,Medic,Operations,Complete,82.5,Standby,2026-12-22
+TEST-P0086,TEST-U026,Maj,Medic,Communications,Complete,85.3,Deployed,2026-03-29
+TEST-P0087,TEST-U053,Sgt,Analyst,Communications,Overdue,39.9,Deployed,2026-04-27
+TEST-P0088,TEST-U050,Cpl,Operator,Operations,In Progress,72.5,Available,2025-09-18
+TEST-P0089,TEST-U072,Lt,Commander,Medical,Complete,99.7,Available,2025-07-18
+TEST-P0090,TEST-U043,Capt,Commander,Cyber,Overdue,46.8,Deployed,2025-05-27
+TEST-P0091,TEST-U081,Maj,Medic,Transport,In Progress,62.5,Available,2027-03-02
+TEST-P0092,TEST-U028,Lt,Medic,Communications,Overdue,43.2,Available,2025-09-02
+TEST-P0093,TEST-U047,Col,Commander,Communications,Overdue,48.8,Standby,2027-01-15
+TEST-P0094,TEST-U086,Maj,Technician,Transport,In Progress,65.6,Standby,2026-12-29
+TEST-P0095,TEST-U023,Capt,Commander,Mechanical,Complete,83.5,Available,2025-12-13
+TEST-P0096,TEST-U074,Cpl,Commander,Intelligence,Complete,84.4,Available,2025-05-11
+TEST-P0097,TEST-U052,Col,Engineer,Transport,Overdue,46.8,Standby,2026-01-18
+TEST-P0098,TEST-U009,Sgt,Medic,Cyber,In Progress,68.1,Standby,2025-05-23
+TEST-P0099,TEST-U064,Capt,Medic,Transport,In Progress,79.0,Available,2027-02-05
+TEST-P0100,TEST-U080,Sgt,Operator,Communications,Complete,97.8,Deployed,2027-06-11
+TEST-P0101,TEST-U085,Col,Operator,Mechanical,In Progress,67.2,Standby,2025-10-26
+TEST-P0102,TEST-U073,Capt,Engineer,Communications,Overdue,40.7,Standby,2025-10-03
+TEST-P0103,TEST-U002,Col,Analyst,Aviation,In Progress,75.8,Available,2027-04-19
+TEST-P0104,TEST-U078,Sgt,Commander,Mechanical,Overdue,52.0,Deployed,2025-05-14
+TEST-P0105,TEST-U084,Lt,Medic,Medical,Complete,83.5,Standby,2026-08-24
+TEST-P0106,TEST-U057,Capt,Operations,Cyber,Complete,82.4,Standby,2025-12-09
+TEST-P0107,TEST-U026,Maj,Technician,Communications,Overdue,36.2,Deployed,2026-11-04
+TEST-P0108,TEST-U072,Sgt,Operations,Aviation,Complete,83.9,Deployed,2025-10-26
+TEST-P0109,TEST-U076,Sgt,Operations,Operations,Complete,99.7,Available,2026-06-29
+TEST-P0110,TEST-U099,Cpl,Engineer,Intelligence,In Progress,71.2,Available,2025-04-30
+TEST-P0111,TEST-U047,Cpl,Operator,Aviation,In Progress,57.5,Standby,2027-01-18
+TEST-P0112,TEST-U068,Sgt,Technician,Medical,Complete,86.9,Standby,2026-02-12
+TEST-P0113,TEST-U066,Capt,Operator,Operations,Complete,93.1,Deployed,2025-05-13
+TEST-P0114,TEST-U086,Capt,Commander,Transport,Overdue,37.9,Standby,2027-03-08
+TEST-P0115,TEST-U061,Maj,Analyst,Transport,Complete,84.2,Standby,2026-09-24
+TEST-P0116,TEST-U070,Capt,Medic,Aviation,Complete,98.3,Available,2026-04-21
+TEST-P0117,TEST-U037,Col,Technician,Cyber,In Progress,67.6,Available,2026-06-19
+TEST-P0118,TEST-U061,Maj,Medic,Operations,Overdue,44.7,Deployed,2027-05-22
+TEST-P0119,TEST-U082,Maj,Engineer,Cyber,Overdue,39.5,Deployed,2025-09-03
+TEST-P0120,TEST-U085,Capt,Medic,Transport,In Progress,71.3,Available,2025-11-05
+TEST-P0121,TEST-U020,Sgt,Operator,Intelligence,Complete,87.1,Deployed,2026-04-10
+TEST-P0122,TEST-U012,Sgt,Medic,Cyber,In Progress,79.9,Deployed,2026-03-19
+TEST-P0123,TEST-U039,Maj,Technician,Medical,Overdue,42.0,Available,2026-03-30
+TEST-P0124,TEST-U015,Col,Technician,Mechanical,Complete,89.3,Deployed,2025-04-08
+TEST-P0125,TEST-U068,Capt,Technician,Operations,In Progress,73.4,Deployed,2025-11-15
+TEST-P0126,TEST-U003,Maj,Medic,Communications,In Progress,59.5,Available,2026-08-15
+TEST-P0127,TEST-U021,Sgt,Commander,Transport,In Progress,78.3,Deployed,2026-09-17
+TEST-P0128,TEST-U040,Cpl,Medic,Intelligence,Overdue,39.1,Standby,2026-03-15
+TEST-P0129,TEST-U077,Capt,Commander,Transport,Complete,80.2,Available,2026-07-19
+TEST-P0130,TEST-U036,Lt,Operations,Aviation,Overdue,49.9,Available,2026-02-21
+TEST-P0131,TEST-U077,Sgt,Analyst,Aviation,Complete,99.0,Standby,2027-05-21
+TEST-P0132,TEST-U070,Col,Commander,Cyber,Overdue,39.9,Available,2027-04-06
+TEST-P0133,TEST-U007,Cpl,Operations,Mechanical,Overdue,46.3,Standby,2025-11-23
+TEST-P0134,TEST-U032,Lt,Medic,Cyber,Overdue,53.9,Available,2025-10-22
+TEST-P0135,TEST-U030,Cpl,Technician,Mechanical,Complete,89.7,Standby,2027-02-05
+TEST-P0136,TEST-U074,Cpl,Analyst,Medical,In Progress,78.3,Deployed,2025-07-15
+TEST-P0137,TEST-U018,Capt,Technician,Cyber,Overdue,45.6,Available,2025-05-29
+TEST-P0138,TEST-U013,Maj,Operator,Communications,Overdue,44.9,Standby,2026-12-08
+TEST-P0139,TEST-U073,Sgt,Logistics,Transport,Complete,81.4,Available,2027-01-18
+TEST-P0140,TEST-U028,Maj,Engineer,Mechanical,In Progress,77.7,Deployed,2027-05-24
+TEST-P0141,TEST-U100,Col,Operator,Communications,In Progress,73.5,Deployed,2025-05-27
+TEST-P0142,TEST-U087,Maj,Technician,Communications,Overdue,36.5,Available,2025-01-05
+TEST-P0143,TEST-U057,Capt,Engineer,Transport,Overdue,46.9,Standby,2026-11-28
+TEST-P0144,TEST-U088,Col,Analyst,Mechanical,In Progress,70.9,Deployed,2026-12-22
+TEST-P0145,TEST-U005,Sgt,Operations,Medical,Overdue,51.3,Standby,2027-06-14
+TEST-P0146,TEST-U047,Sgt,Medic,Aviation,In Progress,63.3,Deployed,2025-12-04
+TEST-P0147,TEST-U038,Sgt,Logistics,Operations,In Progress,75.1,Standby,2027-03-12
+TEST-P0148,TEST-U099,Lt,Engineer,Medical,Complete,80.1,Deployed,2025-02-22
+TEST-P0149,TEST-U064,Cpl,Operator,Transport,In Progress,71.9,Standby,2026-01-28
+TEST-P0150,TEST-U074,Col,Analyst,Operations,Overdue,40.3,Available,2026-11-29
+TEST-P0151,TEST-U055,Capt,Medic,Transport,In Progress,55.4,Available,2025-11-30
+TEST-P0152,TEST-U014,Cpl,Logistics,Cyber,Complete,90.6,Standby,2026-01-26
+TEST-P0153,TEST-U072,Cpl,Operations,Mechanical,In Progress,65.4,Available,2027-02-09
+TEST-P0154,TEST-U013,Maj,Operations,Intelligence,Complete,91.4,Standby,2025-08-25
+TEST-P0155,TEST-U091,Lt,Medic,Communications,In Progress,70.3,Available,2025-01-16
+TEST-P0156,TEST-U100,Lt,Medic,Medical,In Progress,74.4,Available,2025-06-22
+TEST-P0157,TEST-U061,Sgt,Analyst,Communications,Overdue,38.8,Standby,2027-01-28
+TEST-P0158,TEST-U039,Col,Logistics,Aviation,Complete,94.2,Available,2025-12-18
+TEST-P0159,TEST-U064,Col,Operations,Transport,In Progress,58.8,Standby,2027-03-29
+TEST-P0160,TEST-U044,Cpl,Engineer,Communications,In Progress,71.8,Standby,2026-04-10
+TEST-P0161,TEST-U032,Lt,Engineer,Transport,Overdue,43.3,Available,2026-10-25
+TEST-P0162,TEST-U052,Col,Operator,Mechanical,Overdue,39.3,Available,2026-08-27
+TEST-P0163,TEST-U032,Lt,Operations,Mechanical,Overdue,41.4,Standby,2025-09-18
+TEST-P0164,TEST-U096,Lt,Operations,Transport,In Progress,63.6,Standby,2025-08-26
+TEST-P0165,TEST-U001,Lt,Analyst,Mechanical,In Progress,69.9,Deployed,2027-03-05
+TEST-P0166,TEST-U082,Cpl,Operations,Cyber,In Progress,58.5,Available,2025-10-20
+TEST-P0167,TEST-U088,Lt,Medic,Communications,In Progress,70.0,Standby,2025-01-20
+TEST-P0168,TEST-U061,Capt,Commander,Mechanical,In Progress,61.9,Available,2025-04-15
+TEST-P0169,TEST-U082,Capt,Operator,Operations,Complete,94.2,Standby,2027-05-06
+TEST-P0170,TEST-U056,Sgt,Commander,Intelligence,Complete,86.9,Standby,2026-06-09
+TEST-P0171,TEST-U052,Col,Logistics,Medical,In Progress,65.2,Available,2025-09-16
+TEST-P0172,TEST-U100,Lt,Engineer,Cyber,Overdue,35.8,Deployed,2026-06-08
+TEST-P0173,TEST-U074,Maj,Analyst,Operations,In Progress,61.0,Deployed,2026-01-28
+TEST-P0174,TEST-U087,Maj,Commander,Medical,Complete,80.0,Deployed,2027-05-30
+TEST-P0175,TEST-U079,Sgt,Analyst,Aviation,In Progress,71.4,Available,2025-08-27
+TEST-P0176,TEST-U067,Sgt,Analyst,Cyber,In Progress,66.0,Deployed,2025-07-13
+TEST-P0177,TEST-U091,Lt,Medic,Operations,In Progress,56.5,Standby,2026-08-16
+TEST-P0178,TEST-U002,Sgt,Operations,Aviation,Overdue,45.0,Available,2025-11-20
+TEST-P0179,TEST-U028,Maj,Commander,Operations,Overdue,46.3,Deployed,2025-11-10
+TEST-P0180,TEST-U062,Maj,Operator,Operations,Overdue,35.8,Deployed,2026-07-14
+TEST-P0181,TEST-U076,Lt,Commander,Medical,Complete,82.5,Available,2026-12-12
+TEST-P0182,TEST-U072,Maj,Operations,Aviation,In Progress,55.1,Standby,2025-05-31
+TEST-P0183,TEST-U061,Capt,Analyst,Operations,Overdue,54.3,Deployed,2027-02-06
+TEST-P0184,TEST-U038,Col,Analyst,Intelligence,In Progress,58.9,Available,2025-12-14
+TEST-P0185,TEST-U087,Capt,Logistics,Mechanical,Complete,85.7,Deployed,2026-08-20
+TEST-P0186,TEST-U048,Lt,Medic,Medical,Complete,87.0,Deployed,2025-10-12
+TEST-P0187,TEST-U081,Lt,Logistics,Cyber,In Progress,67.2,Available,2026-01-01
+TEST-P0188,TEST-U057,Col,Operator,Aviation,Complete,80.3,Available,2025-10-20
+TEST-P0189,TEST-U065,Maj,Logistics,Communications,Complete,94.1,Available,2026-10-23
+TEST-P0190,TEST-U014,Sgt,Analyst,Mechanical,Overdue,36.3,Deployed,2025-08-28
+TEST-P0191,TEST-U076,Capt,Commander,Transport,In Progress,65.8,Standby,2026-03-27
+TEST-P0192,TEST-U021,Capt,Operator,Cyber,Complete,95.0,Standby,2027-03-15
+TEST-P0193,TEST-U082,Cpl,Logistics,Intelligence,In Progress,74.8,Standby,2025-09-23
+TEST-P0194,TEST-U048,Cpl,Operations,Medical,Overdue,44.0,Available,2025-03-19
+TEST-P0195,TEST-U017,Cpl,Analyst,Medical,In Progress,74.0,Available,2025-01-08
+TEST-P0196,TEST-U089,Capt,Technician,Aviation,In Progress,56.8,Deployed,2025-04-28
+TEST-P0197,TEST-U062,Capt,Medic,Operations,In Progress,58.3,Available,2025-04-22
+TEST-P0198,TEST-U094,Col,Operations,Operations,Overdue,35.7,Deployed,2026-11-19
+TEST-P0199,TEST-U039,Maj,Analyst,Aviation,Overdue,54.3,Deployed,2025-09-09
+TEST-P0200,TEST-U074,Col,Technician,Mechanical,Overdue,44.5,Standby,2026-12-31
+TEST-P0201,TEST-U021,Capt,Analyst,Transport,In Progress,75.5,Standby,2026-07-04
+TEST-P0202,TEST-U018,Capt,Technician,Aviation,Complete,93.3,Standby,2025-08-05
+TEST-P0203,TEST-U069,Cpl,Engineer,Operations,Overdue,54.9,Available,2025-12-29
+TEST-P0204,TEST-U053,Maj,Logistics,Aviation,Complete,81.8,Deployed,2027-01-12
+TEST-P0205,TEST-U012,Lt,Operator,Cyber,In Progress,70.8,Deployed,2027-02-21
+TEST-P0206,TEST-U070,Col,Engineer,Mechanical,Overdue,41.7,Available,2027-01-23
+TEST-P0207,TEST-U009,Capt,Engineer,Operations,Complete,85.0,Standby,2025-12-30
+TEST-P0208,TEST-U059,Maj,Commander,Medical,In Progress,69.3,Available,2025-06-08
+TEST-P0209,TEST-U029,Col,Medic,Aviation,Complete,88.9,Standby,2025-11-26
+TEST-P0210,TEST-U029,Sgt,Commander,Communications,In Progress,73.7,Deployed,2025-12-05
+TEST-P0211,TEST-U056,Maj,Engineer,Transport,Complete,90.5,Standby,2026-07-11
+TEST-P0212,TEST-U028,Cpl,Operator,Medical,Complete,84.6,Deployed,2025-12-03
+TEST-P0213,TEST-U013,Maj,Commander,Cyber,Complete,87.4,Available,2026-12-29
+TEST-P0214,TEST-U051,Lt,Operator,Transport,Complete,89.7,Deployed,2025-06-24
+TEST-P0215,TEST-U056,Col,Commander,Transport,Complete,84.2,Deployed,2026-07-31
+TEST-P0216,TEST-U009,Maj,Operator,Mechanical,In Progress,77.5,Available,2026-06-04
+TEST-P0217,TEST-U043,Cpl,Medic,Transport,In Progress,78.9,Available,2026-12-11
+TEST-P0218,TEST-U003,Cpl,Operator,Intelligence,In Progress,78.0,Available,2027-02-05
+TEST-P0219,TEST-U025,Maj,Operations,Communications,In Progress,59.8,Available,2026-05-09
+TEST-P0220,TEST-U008,Sgt,Logistics,Intelligence,In Progress,68.3,Available,2025-05-22
+TEST-P0221,TEST-U067,Sgt,Technician,Transport,Overdue,44.1,Available,2025-07-28
+TEST-P0222,TEST-U010,Capt,Operations,Aviation,In Progress,75.5,Deployed,2025-08-04
+TEST-P0223,TEST-U069,Col,Engineer,Medical,Overdue,46.1,Available,2025-03-04
+TEST-P0224,TEST-U029,Maj,Engineer,Cyber,Complete,95.0,Deployed,2025-02-10
+TEST-P0225,TEST-U048,Cpl,Logistics,Operations,Overdue,54.7,Deployed,2025-12-27
+TEST-P0226,TEST-U079,Maj,Engineer,Intelligence,Complete,90.2,Available,2026-01-02
+TEST-P0227,TEST-U068,Sgt,Commander,Mechanical,Overdue,43.0,Deployed,2025-01-06
+TEST-P0228,TEST-U038,Lt,Operations,Communications,In Progress,77.9,Standby,2025-09-01
+TEST-P0229,TEST-U036,Capt,Logistics,Aviation,In Progress,65.3,Standby,2026-12-19
+TEST-P0230,TEST-U019,Sgt,Commander,Intelligence,In Progress,62.1,Deployed,2026-08-01
+TEST-P0231,TEST-U082,Sgt,Medic,Mechanical,Complete,92.7,Standby,2025-04-27
+TEST-P0232,TEST-U053,Capt,Operations,Aviation,Complete,87.3,Deployed,2027-04-13
+TEST-P0233,TEST-U080,Lt,Analyst,Cyber,Overdue,48.9,Standby,2025-01-29
+TEST-P0234,TEST-U043,Sgt,Technician,Communications,Overdue,51.4,Available,2026-09-23
+TEST-P0235,TEST-U008,Lt,Logistics,Mechanical,In Progress,77.1,Deployed,2027-01-24
+TEST-P0236,TEST-U084,Capt,Operations,Transport,In Progress,55.0,Deployed,2025-10-19
+TEST-P0237,TEST-U080,Sgt,Engineer,Operations,Overdue,37.8,Standby,2025-01-12
+TEST-P0238,TEST-U052,Cpl,Engineer,Aviation,In Progress,74.7,Deployed,2027-06-03
+TEST-P0239,TEST-U077,Capt,Commander,Transport,Overdue,44.6,Standby,2025-11-08
+TEST-P0240,TEST-U059,Maj,Medic,Cyber,Overdue,53.0,Available,2026-04-27
+TEST-P0241,TEST-U009,Lt,Commander,Mechanical,Complete,84.5,Standby,2027-06-10
+TEST-P0242,TEST-U048,Maj,Engineer,Operations,Complete,81.3,Available,2025-10-11
+TEST-P0243,TEST-U024,Sgt,Analyst,Medical,Overdue,38.6,Standby,2027-03-24
+TEST-P0244,TEST-U007,Cpl,Medic,Transport,Complete,85.2,Available,2026-08-14
+TEST-P0245,TEST-U025,Capt,Analyst,Operations,In Progress,68.1,Available,2026-01-30
+TEST-P0246,TEST-U082,Sgt,Operations,Cyber,Complete,92.8,Deployed,2027-01-07
+TEST-P0247,TEST-U055,Capt,Engineer,Medical,In Progress,64.7,Standby,2026-04-02
+TEST-P0248,TEST-U059,Col,Operator,Aviation,Overdue,38.5,Standby,2027-05-30
+TEST-P0249,TEST-U051,Col,Logistics,Cyber,Complete,97.7,Standby,2027-06-10
+TEST-P0250,TEST-U096,Maj,Operations,Cyber,In Progress,61.4,Deployed,2027-03-18
+TEST-P0251,TEST-U081,Maj,Commander,Communications,In Progress,59.9,Standby,2026-04-03
+TEST-P0252,TEST-U006,Capt,Technician,Cyber,Complete,80.1,Deployed,2026-04-04
+TEST-P0253,TEST-U005,Cpl,Operations,Cyber,Overdue,45.2,Deployed,2025-06-17
+TEST-P0254,TEST-U023,Maj,Logistics,Operations,Complete,86.1,Standby,2026-04-08
+TEST-P0255,TEST-U015,Sgt,Operations,Transport,Overdue,37.1,Deployed,2025-10-23
+TEST-P0256,TEST-U031,Lt,Technician,Communications,Overdue,39.3,Deployed,2026-07-26
+TEST-P0257,TEST-U057,Col,Operator,Medical,Overdue,54.3,Standby,2026-01-27
+TEST-P0258,TEST-U067,Col,Operator,Mechanical,Overdue,44.7,Deployed,2025-11-12
+TEST-P0259,TEST-U078,Lt,Commander,Mechanical,In Progress,79.6,Deployed,2027-02-11
+TEST-P0260,TEST-U097,Cpl,Logistics,Operations,Complete,94.0,Available,2025-12-24
+TEST-P0261,TEST-U071,Sgt,Commander,Intelligence,In Progress,65.3,Standby,2025-04-30
+TEST-P0262,TEST-U069,Col,Commander,Aviation,Complete,90.5,Standby,2025-05-18
+TEST-P0263,TEST-U021,Capt,Engineer,Medical,Complete,92.5,Deployed,2026-12-22
+TEST-P0264,TEST-U031,Capt,Operator,Medical,Overdue,36.6,Available,2027-03-23
+TEST-P0265,TEST-U019,Lt,Operator,Medical,In Progress,75.9,Available,2026-10-16
+TEST-P0266,TEST-U095,Capt,Commander,Transport,In Progress,71.9,Standby,2027-01-18
+TEST-P0267,TEST-U011,Sgt,Operations,Intelligence,In Progress,72.1,Deployed,2026-06-27
+TEST-P0268,TEST-U024,Capt,Technician,Medical,In Progress,62.3,Deployed,2027-04-06
+TEST-P0269,TEST-U064,Capt,Medic,Mechanical,In Progress,66.8,Standby,2025-09-16
+TEST-P0270,TEST-U085,Maj,Operations,Cyber,Complete,81.1,Available,2025-12-17
+TEST-P0271,TEST-U060,Lt,Analyst,Medical,Complete,98.3,Available,2025-04-13
+TEST-P0272,TEST-U010,Sgt,Analyst,Transport,Overdue,51.5,Deployed,2027-01-30
+TEST-P0273,TEST-U081,Lt,Operations,Intelligence,Complete,97.5,Deployed,2025-10-07
+TEST-P0274,TEST-U067,Col,Technician,Medical,Complete,91.2,Available,2025-08-13
+TEST-P0275,TEST-U066,Capt,Logistics,Communications,In Progress,67.3,Available,2027-04-07
+TEST-P0276,TEST-U099,Cpl,Operations,Cyber,In Progress,73.3,Available,2026-03-13
+TEST-P0277,TEST-U059,Capt,Technician,Mechanical,Complete,87.7,Standby,2025-12-01
+TEST-P0278,TEST-U045,Capt,Operations,Mechanical,Complete,86.1,Deployed,2025-08-04
+TEST-P0279,TEST-U019,Lt,Operator,Medical,In Progress,75.7,Available,2026-10-20
+TEST-P0280,TEST-U068,Lt,Technician,Medical,In Progress,76.3,Deployed,2026-04-12
+TEST-P0281,TEST-U094,Capt,Analyst,Operations,In Progress,78.4,Standby,2026-07-25
+TEST-P0282,TEST-U002,Lt,Engineer,Intelligence,In Progress,68.2,Available,2026-05-21
+TEST-P0283,TEST-U075,Lt,Operator,Medical,Overdue,53.8,Standby,2026-03-24
+TEST-P0284,TEST-U052,Lt,Medic,Medical,In Progress,61.5,Deployed,2025-01-07
+TEST-P0285,TEST-U059,Lt,Logistics,Mechanical,Overdue,51.5,Deployed,2026-02-01
+TEST-P0286,TEST-U011,Maj,Technician,Cyber,Overdue,38.6,Standby,2025-01-17
+TEST-P0287,TEST-U044,Capt,Engineer,Medical,Complete,89.6,Available,2026-12-03
+TEST-P0288,TEST-U067,Lt,Logistics,Aviation,In Progress,65.4,Deployed,2025-07-28
+TEST-P0289,TEST-U077,Col,Analyst,Communications,In Progress,70.2,Deployed,2026-11-29
+TEST-P0290,TEST-U004,Col,Engineer,Intelligence,In Progress,70.9,Standby,2026-08-14
+TEST-P0291,TEST-U053,Lt,Technician,Operations,Complete,99.5,Deployed,2026-01-06
+TEST-P0292,TEST-U077,Sgt,Medic,Medical,Overdue,49.4,Deployed,2025-10-10
+TEST-P0293,TEST-U060,Lt,Logistics,Mechanical,Overdue,42.4,Standby,2025-09-23
+TEST-P0294,TEST-U031,Capt,Medic,Communications,In Progress,67.9,Available,2027-04-28
+TEST-P0295,TEST-U037,Capt,Commander,Communications,Complete,84.9,Standby,2025-07-06
+TEST-P0296,TEST-U016,Col,Operator,Medical,Overdue,48.0,Standby,2026-05-20
+TEST-P0297,TEST-U082,Lt,Medic,Operations,Complete,97.6,Available,2025-06-16
+TEST-P0298,TEST-U097,Cpl,Medic,Medical,In Progress,72.6,Available,2027-06-10
+TEST-P0299,TEST-U002,Capt,Commander,Intelligence,In Progress,73.4,Available,2026-02-18
+TEST-P0300,TEST-U097,Cpl,Operator,Mechanical,Complete,86.0,Standby,2025-11-13
+TEST-P0301,TEST-U034,Col,Operator,Intelligence,Complete,85.7,Deployed,2025-01-12
+TEST-P0302,TEST-U028,Lt,Operations,Intelligence,In Progress,77.8,Deployed,2027-06-04
+TEST-P0303,TEST-U046,Col,Medic,Aviation,Overdue,48.7,Deployed,2026-05-18
+TEST-P0304,TEST-U094,Maj,Analyst,Medical,Complete,81.2,Available,2026-01-21
+TEST-P0305,TEST-U011,Sgt,Technician,Mechanical,Overdue,46.4,Standby,2026-07-07
+TEST-P0306,TEST-U091,Col,Technician,Intelligence,Overdue,46.1,Deployed,2026-03-13
+TEST-P0307,TEST-U026,Col,Engineer,Mechanical,In Progress,78.4,Deployed,2027-01-01
+TEST-P0308,TEST-U029,Capt,Logistics,Intelligence,Complete,96.8,Available,2025-01-27
+TEST-P0309,TEST-U041,Col,Engineer,Transport,Complete,96.2,Deployed,2025-12-17
+TEST-P0310,TEST-U063,Sgt,Operator,Communications,In Progress,79.4,Available,2025-11-24
+TEST-P0311,TEST-U054,Capt,Operator,Intelligence,Complete,99.8,Standby,2025-08-11
+TEST-P0312,TEST-U089,Maj,Technician,Medical,Complete,81.3,Deployed,2026-12-04
+TEST-P0313,TEST-U069,Cpl,Commander,Transport,Complete,86.1,Standby,2025-01-15
+TEST-P0314,TEST-U092,Maj,Engineer,Aviation,In Progress,56.0,Available,2026-12-06
+TEST-P0315,TEST-U065,Sgt,Operator,Medical,Overdue,47.7,Deployed,2026-10-18
+TEST-P0316,TEST-U052,Sgt,Logistics,Cyber,In Progress,66.2,Deployed,2026-02-22
+TEST-P0317,TEST-U084,Maj,Medic,Operations,In Progress,63.6,Standby,2025-12-10
+TEST-P0318,TEST-U026,Cpl,Commander,Medical,Overdue,53.6,Available,2025-05-20
+TEST-P0319,TEST-U002,Capt,Medic,Communications,Complete,87.7,Standby,2027-01-30
+TEST-P0320,TEST-U010,Capt,Operations,Intelligence,Overdue,42.8,Available,2026-04-18
+TEST-P0321,TEST-U092,Lt,Operations,Mechanical,Overdue,48.0,Standby,2025-09-22
+TEST-P0322,TEST-U048,Sgt,Analyst,Intelligence,Complete,93.9,Deployed,2027-03-09
+TEST-P0323,TEST-U011,Col,Operator,Communications,Complete,92.2,Available,2025-05-02
+TEST-P0324,TEST-U011,Maj,Analyst,Cyber,In Progress,75.1,Available,2025-04-07
+TEST-P0325,TEST-U063,Maj,Analyst,Operations,Complete,93.3,Standby,2025-07-10
+TEST-P0326,TEST-U072,Cpl,Operator,Medical,In Progress,61.0,Standby,2026-10-13
+TEST-P0327,TEST-U050,Capt,Logistics,Cyber,Overdue,40.5,Standby,2025-06-27
+TEST-P0328,TEST-U003,Maj,Logistics,Intelligence,In Progress,79.4,Standby,2026-03-23
+TEST-P0329,TEST-U077,Col,Engineer,Aviation,In Progress,56.1,Deployed,2026-09-07
+TEST-P0330,TEST-U038,Col,Analyst,Communications,In Progress,63.6,Available,2025-10-27
+TEST-P0331,TEST-U024,Sgt,Technician,Communications,Complete,92.6,Deployed,2027-03-09
+TEST-P0332,TEST-U089,Capt,Logistics,Mechanical,Overdue,44.4,Available,2027-02-02
+TEST-P0333,TEST-U075,Sgt,Technician,Cyber,In Progress,74.2,Deployed,2027-04-20
+TEST-P0334,TEST-U085,Lt,Commander,Aviation,Overdue,52.7,Standby,2026-08-01
+TEST-P0335,TEST-U012,Col,Analyst,Mechanical,In Progress,61.8,Deployed,2027-04-18
+TEST-P0336,TEST-U071,Maj,Engineer,Transport,In Progress,75.1,Standby,2025-08-13
+TEST-P0337,TEST-U006,Sgt,Medic,Intelligence,Complete,81.9,Deployed,2025-06-05
+TEST-P0338,TEST-U063,Col,Analyst,Cyber,Complete,92.4,Deployed,2026-01-17
+TEST-P0339,TEST-U051,Cpl,Logistics,Intelligence,Complete,82.4,Deployed,2027-05-05
+TEST-P0340,TEST-U080,Capt,Analyst,Medical,Complete,84.7,Available,2027-05-15
+TEST-P0341,TEST-U015,Capt,Analyst,Intelligence,Complete,96.2,Standby,2025-01-24
+TEST-P0342,TEST-U054,Capt,Technician,Cyber,Complete,85.3,Deployed,2026-07-10
+TEST-P0343,TEST-U061,Maj,Logistics,Operations,Overdue,54.1,Available,2025-03-20
+TEST-P0344,TEST-U038,Sgt,Logistics,Transport,In Progress,70.0,Available,2027-05-25
+TEST-P0345,TEST-U037,Col,Engineer,Communications,Complete,96.9,Standby,2025-01-08
+TEST-P0346,TEST-U077,Lt,Medic,Medical,Complete,92.9,Standby,2025-06-18
+TEST-P0347,TEST-U033,Cpl,Logistics,Medical,Complete,88.4,Standby,2026-07-08
+TEST-P0348,TEST-U020,Maj,Medic,Communications,Complete,82.9,Available,2026-06-21
+TEST-P0349,TEST-U042,Cpl,Engineer,Intelligence,Overdue,44.3,Deployed,2026-03-28
+TEST-P0350,TEST-U098,Capt,Commander,Operations,In Progress,70.6,Deployed,2027-02-12
+TEST-P0351,TEST-U078,Col,Engineer,Intelligence,Overdue,51.9,Standby,2026-08-26
+TEST-P0352,TEST-U044,Col,Engineer,Aviation,Complete,90.7,Standby,2025-12-30
+TEST-P0353,TEST-U059,Cpl,Operator,Cyber,Overdue,38.8,Deployed,2026-09-06
+TEST-P0354,TEST-U046,Lt,Engineer,Medical,In Progress,63.3,Standby,2027-05-20
+TEST-P0355,TEST-U051,Lt,Operator,Communications,Overdue,35.8,Deployed,2025-12-14
+TEST-P0356,TEST-U094,Cpl,Engineer,Transport,Overdue,54.7,Deployed,2026-09-23
+TEST-P0357,TEST-U096,Col,Commander,Intelligence,Overdue,43.7,Standby,2027-01-25
+TEST-P0358,TEST-U094,Cpl,Medic,Medical,In Progress,61.9,Standby,2025-06-29
+TEST-P0359,TEST-U087,Maj,Analyst,Aviation,In Progress,76.7,Standby,2025-11-26
+TEST-P0360,TEST-U099,Capt,Analyst,Operations,Overdue,45.8,Available,2025-10-09
+TEST-P0361,TEST-U034,Cpl,Operator,Intelligence,In Progress,78.8,Standby,2025-03-19
+TEST-P0362,TEST-U081,Cpl,Operator,Communications,Overdue,48.8,Deployed,2027-05-07
+TEST-P0363,TEST-U017,Cpl,Commander,Cyber,Overdue,51.9,Available,2026-05-26
+TEST-P0364,TEST-U051,Sgt,Logistics,Mechanical,Overdue,35.9,Deployed,2026-02-08
+TEST-P0365,TEST-U050,Col,Medic,Medical,Complete,94.1,Standby,2025-10-04
+TEST-P0366,TEST-U017,Col,Engineer,Mechanical,Overdue,39.0,Available,2027-06-17
+TEST-P0367,TEST-U058,Sgt,Commander,Transport,Overdue,47.1,Standby,2025-05-06
+TEST-P0368,TEST-U072,Maj,Operations,Communications,Complete,86.8,Available,2027-01-17
+TEST-P0369,TEST-U082,Maj,Analyst,Medical,In Progress,60.6,Standby,2026-12-18
+TEST-P0370,TEST-U013,Cpl,Logistics,Medical,In Progress,66.6,Standby,2025-11-18
+TEST-P0371,TEST-U034,Lt,Medic,Operations,In Progress,65.1,Deployed,2026-01-28
+TEST-P0372,TEST-U062,Cpl,Medic,Medical,Overdue,40.7,Standby,2026-03-10
+TEST-P0373,TEST-U004,Col,Medic,Communications,Overdue,46.7,Available,2027-01-06
+TEST-P0374,TEST-U088,Maj,Operator,Communications,In Progress,70.4,Deployed,2027-02-27
+TEST-P0375,TEST-U008,Maj,Logistics,Intelligence,In Progress,68.2,Standby,2025-02-27
+TEST-P0376,TEST-U001,Maj,Engineer,Intelligence,In Progress,79.9,Deployed,2025-01-22
+TEST-P0377,TEST-U020,Capt,Operations,Transport,In Progress,57.7,Deployed,2025-09-01
+TEST-P0378,TEST-U014,Maj,Logistics,Operations,Complete,94.2,Available,2027-02-24
+TEST-P0379,TEST-U087,Capt,Technician,Intelligence,Complete,86.4,Available,2027-04-02
+TEST-P0380,TEST-U032,Capt,Operations,Transport,Overdue,38.5,Deployed,2026-12-30
+TEST-P0381,TEST-U034,Maj,Analyst,Communications,Overdue,40.9,Standby,2026-03-20
+TEST-P0382,TEST-U067,Sgt,Technician,Cyber,In Progress,69.7,Standby,2025-01-19
+TEST-P0383,TEST-U054,Sgt,Engineer,Operations,Complete,81.7,Available,2025-04-03
+TEST-P0384,TEST-U034,Cpl,Medic,Mechanical,Complete,99.1,Available,2026-06-23
+TEST-P0385,TEST-U007,Cpl,Analyst,Transport,In Progress,76.1,Available,2025-08-20
+TEST-P0386,TEST-U013,Col,Operations,Operations,Complete,82.1,Available,2026-01-05
+TEST-P0387,TEST-U058,Lt,Engineer,Mechanical,Overdue,48.6,Deployed,2026-08-17
+TEST-P0388,TEST-U025,Sgt,Commander,Aviation,Complete,86.1,Standby,2027-06-14
+TEST-P0389,TEST-U012,Capt,Medic,Mechanical,Complete,84.4,Available,2025-12-16
+TEST-P0390,TEST-U007,Cpl,Technician,Communications,Overdue,46.0,Available,2026-03-18
+TEST-P0391,TEST-U047,Maj,Engineer,Operations,In Progress,56.4,Deployed,2027-05-17
+TEST-P0392,TEST-U047,Capt,Technician,Operations,In Progress,65.0,Available,2026-08-23
+TEST-P0393,TEST-U075,Lt,Operator,Mechanical,In Progress,74.7,Deployed,2026-02-06
+TEST-P0394,TEST-U020,Capt,Operations,Intelligence,Complete,93.3,Available,2026-06-07
+TEST-P0395,TEST-U091,Col,Technician,Medical,Overdue,40.3,Deployed,2027-06-11
+TEST-P0396,TEST-U090,Sgt,Logistics,Medical,In Progress,72.7,Available,2027-05-02
+TEST-P0397,TEST-U095,Capt,Operator,Mechanical,In Progress,72.0,Deployed,2026-09-24
+TEST-P0398,TEST-U093,Cpl,Technician,Aviation,In Progress,78.9,Deployed,2025-11-04
+TEST-P0399,TEST-U002,Sgt,Operations,Aviation,Complete,92.5,Available,2027-04-20
+TEST-P0400,TEST-U051,Lt,Analyst,Intelligence,Overdue,36.5,Deployed,2025-01-13
+TEST-P0401,TEST-U061,Maj,Logistics,Communications,Complete,84.8,Deployed,2025-03-25
+TEST-P0402,TEST-U056,Cpl,Commander,Mechanical,Overdue,42.3,Available,2025-07-26
+TEST-P0403,TEST-U048,Capt,Operator,Intelligence,In Progress,70.5,Standby,2025-01-03
+TEST-P0404,TEST-U056,Capt,Technician,Cyber,In Progress,65.7,Standby,2025-06-14
+TEST-P0405,TEST-U092,Maj,Operator,Cyber,In Progress,77.0,Standby,2026-12-09
+TEST-P0406,TEST-U031,Maj,Logistics,Transport,Overdue,53.2,Deployed,2025-06-09
+TEST-P0407,TEST-U054,Lt,Analyst,Medical,Overdue,38.6,Standby,2027-04-01
+TEST-P0408,TEST-U034,Sgt,Analyst,Intelligence,Overdue,50.1,Deployed,2025-05-25
+TEST-P0409,TEST-U037,Cpl,Operator,Medical,Overdue,36.3,Standby,2026-06-25
+TEST-P0410,TEST-U028,Maj,Commander,Transport,Overdue,49.0,Available,2026-03-15
+TEST-P0411,TEST-U065,Maj,Operator,Mechanical,Complete,93.5,Standby,2025-05-24
+TEST-P0412,TEST-U090,Maj,Medic,Mechanical,Overdue,52.1,Standby,2026-06-22
+TEST-P0413,TEST-U083,Col,Operations,Cyber,Complete,84.3,Deployed,2025-04-04
+TEST-P0414,TEST-U038,Lt,Technician,Medical,Complete,89.7,Available,2025-04-11
+TEST-P0415,TEST-U015,Cpl,Engineer,Medical,Overdue,42.4,Deployed,2026-08-16
+TEST-P0416,TEST-U041,Cpl,Technician,Operations,In Progress,55.0,Available,2026-08-31
+TEST-P0417,TEST-U053,Lt,Analyst,Cyber,Complete,88.7,Standby,2026-08-19
+TEST-P0418,TEST-U028,Sgt,Technician,Mechanical,In Progress,66.6,Available,2026-01-02
+TEST-P0419,TEST-U049,Cpl,Engineer,Mechanical,Overdue,38.7,Standby,2026-03-14
+TEST-P0420,TEST-U100,Col,Logistics,Medical,In Progress,68.5,Standby,2025-11-15
+TEST-P0421,TEST-U050,Lt,Logistics,Operations,Overdue,42.3,Standby,2026-02-18
+TEST-P0422,TEST-U098,Capt,Engineer,Intelligence,Complete,90.3,Standby,2025-03-25
+TEST-P0423,TEST-U076,Capt,Analyst,Cyber,In Progress,78.5,Standby,2026-01-04
+TEST-P0424,TEST-U050,Cpl,Operator,Cyber,Overdue,54.0,Available,2025-12-07
+TEST-P0425,TEST-U097,Cpl,Logistics,Intelligence,In Progress,62.4,Deployed,2025-06-18
+TEST-P0426,TEST-U009,Capt,Commander,Cyber,Complete,96.1,Available,2025-07-13
+TEST-P0427,TEST-U028,Capt,Medic,Intelligence,Complete,87.0,Deployed,2027-03-16
+TEST-P0428,TEST-U044,Lt,Commander,Cyber,Overdue,35.5,Standby,2026-11-30
+TEST-P0429,TEST-U098,Maj,Commander,Medical,In Progress,76.2,Deployed,2027-06-07
+TEST-P0430,TEST-U004,Sgt,Technician,Mechanical,In Progress,75.3,Standby,2025-03-08
+TEST-P0431,TEST-U055,Lt,Engineer,Communications,Overdue,46.4,Available,2026-10-27
+TEST-P0432,TEST-U062,Sgt,Technician,Medical,Complete,83.4,Standby,2027-01-24
+TEST-P0433,TEST-U068,Lt,Logistics,Mechanical,Overdue,45.6,Standby,2025-10-07
+TEST-P0434,TEST-U016,Lt,Analyst,Operations,Overdue,36.8,Deployed,2026-06-16
+TEST-P0435,TEST-U027,Col,Logistics,Mechanical,Overdue,43.8,Standby,2027-06-15
+TEST-P0436,TEST-U061,Col,Operations,Mechanical,Complete,98.1,Deployed,2027-05-11
+TEST-P0437,TEST-U047,Capt,Technician,Intelligence,In Progress,74.9,Available,2026-03-15
+TEST-P0438,TEST-U070,Capt,Analyst,Communications,Overdue,47.7,Standby,2026-05-14
+TEST-P0439,TEST-U071,Maj,Operations,Communications,In Progress,55.7,Available,2025-04-29
+TEST-P0440,TEST-U061,Cpl,Logistics,Cyber,Overdue,44.0,Deployed,2025-12-29
+TEST-P0441,TEST-U047,Cpl,Medic,Cyber,Overdue,52.3,Available,2027-02-04
+TEST-P0442,TEST-U020,Sgt,Technician,Mechanical,In Progress,55.4,Standby,2026-12-02
+TEST-P0443,TEST-U066,Col,Operator,Communications,In Progress,73.7,Available,2026-02-13
+TEST-P0444,TEST-U062,Col,Commander,Cyber,Complete,99.8,Deployed,2025-03-12
+TEST-P0445,TEST-U003,Sgt,Engineer,Cyber,In Progress,58.8,Standby,2025-01-15
+TEST-P0446,TEST-U054,Maj,Commander,Transport,In Progress,67.9,Available,2026-10-06
+TEST-P0447,TEST-U038,Maj,Logistics,Communications,Complete,97.0,Standby,2025-02-22
+TEST-P0448,TEST-U012,Cpl,Engineer,Mechanical,Complete,88.8,Deployed,2026-05-08
+TEST-P0449,TEST-U011,Maj,Operations,Mechanical,In Progress,73.1,Deployed,2025-04-09
+TEST-P0450,TEST-U087,Capt,Engineer,Intelligence,Overdue,37.2,Standby,2025-05-12
+TEST-P0451,TEST-U020,Col,Technician,Medical,Complete,92.7,Deployed,2025-09-09
+TEST-P0452,TEST-U083,Maj,Operations,Aviation,In Progress,59.7,Deployed,2026-08-17
+TEST-P0453,TEST-U023,Cpl,Logistics,Transport,Overdue,42.2,Standby,2027-06-17
+TEST-P0454,TEST-U089,Capt,Operator,Medical,In Progress,76.5,Available,2025-03-09
+TEST-P0455,TEST-U064,Maj,Logistics,Communications,In Progress,75.1,Standby,2025-12-13
+TEST-P0456,TEST-U027,Lt,Operations,Intelligence,In Progress,74.3,Deployed,2025-01-03
+TEST-P0457,TEST-U025,Maj,Logistics,Mechanical,Overdue,44.6,Standby,2025-01-25
+TEST-P0458,TEST-U069,Col,Analyst,Aviation,Complete,84.5,Deployed,2027-03-27
+TEST-P0459,TEST-U034,Sgt,Medic,Operations,In Progress,68.3,Standby,2025-02-17
+TEST-P0460,TEST-U093,Maj,Commander,Aviation,In Progress,72.4,Available,2025-03-11
+TEST-P0461,TEST-U043,Maj,Commander,Cyber,Complete,99.2,Available,2026-04-03
+TEST-P0462,TEST-U082,Lt,Operator,Operations,Overdue,43.5,Standby,2027-04-11
+TEST-P0463,TEST-U081,Lt,Operator,Transport,Overdue,52.2,Deployed,2027-03-30
+TEST-P0464,TEST-U089,Col,Commander,Communications,In Progress,59.7,Available,2026-09-12
+TEST-P0465,TEST-U074,Capt,Operator,Aviation,Overdue,45.4,Deployed,2025-03-18
+TEST-P0466,TEST-U070,Sgt,Operator,Mechanical,Complete,99.8,Deployed,2026-10-30
+TEST-P0467,TEST-U099,Maj,Operator,Operations,In Progress,79.5,Available,2027-03-11
+TEST-P0468,TEST-U100,Capt,Analyst,Cyber,In Progress,61.6,Available,2025-08-29
+TEST-P0469,TEST-U060,Sgt,Technician,Cyber,In Progress,78.2,Deployed,2025-10-23
+TEST-P0470,TEST-U079,Col,Analyst,Transport,In Progress,66.2,Deployed,2025-05-15
+TEST-P0471,TEST-U002,Lt,Logistics,Communications,Complete,80.6,Available,2025-01-28
+TEST-P0472,TEST-U011,Cpl,Operator,Cyber,Complete,89.3,Deployed,2026-12-22
+TEST-P0473,TEST-U027,Sgt,Engineer,Transport,In Progress,59.6,Deployed,2027-01-07
+TEST-P0474,TEST-U100,Cpl,Engineer,Cyber,In Progress,62.3,Standby,2025-12-18
+TEST-P0475,TEST-U005,Lt,Technician,Operations,Overdue,36.7,Available,2027-04-05
+TEST-P0476,TEST-U058,Lt,Engineer,Aviation,Complete,92.4,Deployed,2027-03-16
+TEST-P0477,TEST-U078,Sgt,Technician,Intelligence,Overdue,43.0,Standby,2026-06-25
+TEST-P0478,TEST-U058,Lt,Commander,Transport,Overdue,41.6,Standby,2026-04-19
+TEST-P0479,TEST-U037,Sgt,Commander,Transport,Complete,98.8,Deployed,2026-09-08
+TEST-P0480,TEST-U060,Col,Commander,Intelligence,Complete,90.1,Available,2027-02-28
+TEST-P0481,TEST-U083,Lt,Operator,Operations,Complete,89.3,Available,2025-06-22
+TEST-P0482,TEST-U075,Cpl,Technician,Aviation,In Progress,63.9,Standby,2025-03-02
+TEST-P0483,TEST-U004,Col,Operations,Operations,Overdue,45.4,Available,2025-10-19
+TEST-P0484,TEST-U080,Sgt,Technician,Communications,Complete,89.8,Standby,2027-02-26
+TEST-P0485,TEST-U097,Capt,Operator,Intelligence,In Progress,63.2,Standby,2026-10-02
+TEST-P0486,TEST-U050,Sgt,Analyst,Operations,Complete,90.3,Deployed,2026-01-31
+TEST-P0487,TEST-U040,Lt,Technician,Cyber,Complete,95.2,Deployed,2026-12-18
+TEST-P0488,TEST-U059,Lt,Commander,Aviation,In Progress,75.6,Available,2026-12-01
+TEST-P0489,TEST-U015,Cpl,Commander,Intelligence,Complete,97.7,Standby,2026-08-09
+TEST-P0490,TEST-U003,Sgt,Operator,Aviation,Overdue,42.2,Available,2025-09-25
+TEST-P0491,TEST-U030,Sgt,Technician,Cyber,Complete,97.7,Standby,2025-05-30
+TEST-P0492,TEST-U013,Sgt,Operations,Communications,In Progress,56.8,Available,2025-05-16
+TEST-P0493,TEST-U004,Sgt,Analyst,Cyber,Overdue,49.1,Available,2027-05-22
+TEST-P0494,TEST-U060,Col,Operations,Aviation,Complete,84.8,Available,2025-01-08
+TEST-P0495,TEST-U081,Lt,Operator,Medical,Complete,87.9,Deployed,2025-09-07
+TEST-P0496,TEST-U069,Maj,Operations,Medical,Overdue,37.9,Standby,2026-02-23
+TEST-P0497,TEST-U022,Capt,Commander,Mechanical,In Progress,56.8,Standby,2025-12-19
+TEST-P0498,TEST-U018,Lt,Technician,Cyber,In Progress,77.3,Deployed,2027-02-04
+TEST-P0499,TEST-U004,Sgt,Engineer,Aviation,Complete,86.4,Standby,2026-12-02
+TEST-P0500,TEST-U058,Lt,Technician,Communications,Overdue,37.5,Deployed,2026-12-26

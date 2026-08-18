@@ -1,0 +1,102 @@
+maintenance_id,equipment_id,unit_id,maintenance_type,maintenance_date,completion_date,downtime_days,maintenance_cost,maintenance_status,failure_category
+M-00001,E-00958,U-042,Inspection,2025-08-26,2025-09-04,14,19735.49,In Progress,No Failure
+M-00002,E-00127,U-025,Corrective,2026-01-25,2026-01-28,10,10664.7,In Progress,Power
+M-00003,E-01197,U-057,Preventive,2025-02-08,2025-02-11,3,6795.11,Completed,Power
+M-00004,E-00183,U-009,Inspection,2026-07-12,2026-07-16,8,6424.45,Completed,No Failure
+M-00005,E-00223,U-009,Inspection,2025-04-25,2025-04-30,1,10311.85,In Progress,Software
+M-00006,E-01090,U-003,Corrective,2025-11-28,2025-12-07,16,8334.67,Completed,Mechanical
+M-00007,E-00729,U-038,Inspection,2025-06-07,2025-06-14,4,8918.27,In Progress,Power
+M-00008,E-00844,U-045,Corrective,2026-04-14,2026-04-20,15,17834.03,Overdue,Power
+M-00009,E-00650,U-029,Corrective,2025-03-16,2025-03-26,18,5393.11,Overdue,Electrical
+M-00010,E-01460,U-038,Inspection,2025-04-02,2025-04-06,11,9052.89,In Progress,Electrical
+M-00011,E-01265,U-010,Preventive,2026-03-19,2026-03-30,7,20293.19,Overdue,Software
+M-00012,E-00728,U-035,Corrective,2026-07-05,2026-07-16,9,2173.15,Overdue,Software
+M-00013,E-00289,U-059,Inspection,2025-12-01,2025-12-08,2,17466.26,Overdue,Software
+M-00014,E-01536,U-028,Inspection,2025-04-24,2025-05-01,5,6961.56,In Progress,Software
+M-00015,E-00628,U-015,Corrective,2026-04-27,2026-05-09,6,15001.82,In Progress,Software
+M-00016,E-00582,U-040,Corrective,2025-05-21,2025-05-30,12,20994.49,In Progress,Software
+M-00017,E-00938,U-044,Corrective,2025-07-15,2025-07-23,2,2716.17,Completed,Power
+M-00018,E-01342,U-001,Preventive,2026-05-22,2026-06-01,2,17152.05,Overdue,Mechanical
+M-00019,E-01754,U-045,Preventive,2025-05-11,2025-05-15,18,23900.13,In Progress,Power
+M-00020,E-00207,U-007,Preventive,2025-05-12,2025-05-18,3,14517.21,Overdue,Mechanical
+M-00021,E-00721,U-048,Preventive,2026-01-27,2026-02-01,9,10718.27,Completed,Power
+M-00022,E-00074,U-020,Corrective,2025-04-07,2025-04-13,14,10496.84,Overdue,Power
+M-00023,E-01233,U-058,Inspection,2025-08-06,2025-08-12,2,13287.13,In Progress,Power
+M-00024,E-01499,U-052,Corrective,2025-05-15,2025-05-18,11,6394.27,Overdue,No Failure
+M-00025,E-00567,U-001,Preventive,2025-01-15,2025-01-16,16,8190.03,Overdue,Software
+M-00026,E-01717,U-027,Preventive,2025-10-18,2025-10-29,9,22402.23,Completed,Power
+M-00027,E-00580,U-015,Corrective,2026-06-26,2026-06-30,12,1707.12,In Progress,Mechanical
+M-00028,E-00030,U-023,Inspection,2025-08-06,2025-08-10,6,13129.54,Overdue,Software
+M-00029,E-01246,U-032,Preventive,2026-04-22,2026-04-25,9,7110.83,In Progress,Power
+M-00030,E-00177,U-038,Inspection,2025-01-25,2025-01-26,15,12363.3,Overdue,Software
+M-00031,E-00357,U-019,Inspection,2025-08-30,2025-09-05,8,23498.22,Completed,Electrical
+M-00032,E-00973,U-034,Corrective,2025-08-14,2025-08-21,12,8907.11,In Progress,Electrical
+M-00033,E-00133,U-041,Preventive,2026-03-25,2026-04-02,12,12157.47,Completed,Mechanical
+M-00034,E-00657,U-027,Inspection,2025-11-14,2025-11-16,10,11969.74,Completed,Power
+M-00035,E-00798,U-054,Corrective,2026-02-21,2026-02-23,11,22337.22,Completed,Software
+M-00036,E-00445,U-029,Inspection,2026-08-14,2026-08-17,9,4891.19,Overdue,No Failure
+M-00037,E-01705,U-060,Preventive,2025-05-23,2025-05-29,2,23376.57,Completed,Power
+M-00038,E-00522,U-040,Inspection,2025-08-16,2025-08-20,2,11198.27,In Progress,Software
+M-00039,E-01751,U-025,Inspection,2026-07-07,2026-07-18,11,12854.04,In Progress,Electrical
+M-00040,E-00970,U-003,Preventive,2025-07-13,2025-07-25,3,20867.99,Overdue,Software
+M-00041,E-01771,U-044,Preventive,2025-02-14,2025-02-22,4,17372.07,Completed,Power
+M-00042,E-00905,U-059,Inspection,2025-12-21,2025-12-25,12,8218.93,Overdue,No Failure
+M-00043,E-00590,U-060,Preventive,2025-07-05,2025-07-17,3,10824.85,Overdue,Power
+M-00044,E-00364,U-023,Inspection,2025-02-04,2025-02-11,11,15151.98,Completed,No Failure
+M-00045,E-01469,U-006,Corrective,2025-10-10,2025-10-14,13,6654.05,Completed,Electrical
+M-00046,E-00547,U-020,Corrective,2025-10-25,2025-10-29,6,18844.34,Overdue,Electrical
+M-00047,E-01205,U-008,Corrective,2025-04-06,2025-04-09,6,17405.44,Overdue,No Failure
+M-00048,E-01294,U-022,Corrective,2025-02-27,2025-03-10,5,4546.18,In Progress,Electrical
+M-00049,E-01471,U-054,Preventive,2026-05-28,2026-06-03,6,11814.48,Completed,Software
+M-00050,E-00914,U-044,Corrective,2026-07-13,2026-07-24,16,3107.38,Overdue,Power
+M-00051,E-00386,U-008,Corrective,2026-07-08,2026-07-12,2,849.49,Overdue,No Failure
+M-00052,E-00123,U-021,Preventive,2026-03-10,2026-03-21,5,8881.61,Overdue,Electrical
+M-00053,E-01322,U-033,Corrective,2026-05-03,2026-05-09,10,10360.94,Overdue,Electrical
+M-00054,E-00247,U-006,Preventive,2026-05-06,2026-05-15,10,24116.21,Overdue,No Failure
+M-00055,E-00495,U-056,Corrective,2025-10-24,2025-10-31,7,5895.37,Overdue,Mechanical
+M-00056,E-01680,U-051,Corrective,2026-01-23,2026-02-03,14,21463.93,Overdue,Mechanical
+M-00057,E-01685,U-015,Corrective,2025-03-08,2025-03-13,14,18503.75,In Progress,No Failure
+M-00058,E-00954,U-039,Corrective,2025-11-17,2025-11-21,11,24335.25,Completed,Software
+M-00059,E-00751,U-042,Inspection,2025-04-21,2025-04-29,13,14437.59,In Progress,Mechanical
+M-00060,E-01442,U-052,Corrective,2026-08-03,2026-08-13,14,8516.62,In Progress,No Failure
+M-00061,E-00086,U-025,Inspection,2025-08-23,2025-08-27,15,18726.91,Completed,Power
+M-00062,E-01167,U-005,Inspection,2026-02-09,2026-02-14,17,6779.03,Completed,No Failure
+M-00063,E-00018,U-058,Preventive,2026-08-01,2026-08-04,5,8488.66,Overdue,Mechanical
+M-00064,E-00694,U-007,Corrective,2025-12-28,2026-01-07,12,21059.89,Completed,Electrical
+M-00065,E-01314,U-024,Preventive,2025-05-14,2025-05-22,13,10623.71,In Progress,No Failure
+M-00066,E-00584,U-018,Corrective,2025-05-28,2025-06-02,7,1906.73,Overdue,Electrical
+M-00067,E-00095,U-001,Preventive,2026-07-13,2026-07-17,16,4303.76,Overdue,Software
+M-00068,E-00293,U-004,Preventive,2025-05-05,2025-05-15,7,9361.74,Completed,Mechanical
+M-00069,E-01375,U-018,Inspection,2025-07-14,2025-07-17,6,15380.21,In Progress,No Failure
+M-00070,E-00179,U-037,Inspection,2025-11-09,2025-11-16,5,14146.3,Completed,Electrical
+M-00071,E-01650,U-054,Inspection,2026-03-19,2026-03-30,11,5354.35,Completed,Software
+M-00072,E-00959,U-052,Preventive,2026-07-06,2026-07-17,10,18912.35,In Progress,Electrical
+M-00073,E-01408,U-027,Preventive,2025-01-25,2025-02-02,17,4317.81,In Progress,Electrical
+M-00074,E-00883,U-042,Corrective,2026-02-06,2026-02-16,10,17351.91,Completed,Electrical
+M-00075,E-01402,U-001,Inspection,2025-01-05,2025-01-15,10,5653.86,In Progress,Software
+M-00076,E-00326,U-053,Inspection,2025-12-31,2026-01-01,17,8510.99,Overdue,Power
+M-00077,E-00685,U-030,Preventive,2026-03-14,2026-03-24,16,19922.54,In Progress,Electrical
+M-00078,E-01159,U-055,Preventive,2025-05-30,2025-06-02,11,11474.18,Completed,Electrical
+M-00079,E-00502,U-058,Inspection,2025-11-08,2025-11-15,18,20590.92,Overdue,Power
+M-00080,E-00970,U-003,Inspection,2025-02-26,2025-03-09,9,11954.36,Completed,Power
+M-00081,E-00519,U-043,Corrective,2025-09-15,2025-09-22,13,3081.2,In Progress,No Failure
+M-00082,E-00611,U-006,Preventive,2026-01-31,2026-02-09,2,24517.85,Overdue,Electrical
+M-00083,E-00346,U-012,Inspection,2026-05-30,2026-06-06,17,17537.23,In Progress,Software
+M-00084,E-00347,U-057,Corrective,2025-10-06,2025-10-16,9,22292.6,Completed,Software
+M-00085,E-00738,U-040,Inspection,2025-03-27,2025-04-03,11,10718.65,Completed,Power
+M-00086,E-01367,U-014,Corrective,2025-11-03,2025-11-04,18,24387.91,Completed,Power
+M-00087,E-01780,U-055,Inspection,2025-04-14,2025-04-18,18,1177.65,In Progress,Software
+M-00088,E-01518,U-027,Corrective,2025-07-15,2025-07-23,14,14847.62,Completed,Power
+M-00089,E-01012,U-048,Inspection,2026-05-21,2026-05-25,18,20272.8,Completed,Power
+M-00090,E-00328,U-042,Preventive,2025-01-29,2025-02-05,7,2847.11,In Progress,Power
+M-00091,E-00064,U-016,Inspection,2025-01-07,2025-01-10,8,14708.53,In Progress,Power
+M-00092,E-00443,U-002,Preventive,2025-03-16,2025-03-20,13,16110.41,Overdue,Power
+M-00093,E-01391,U-055,Corrective,2025-03-10,2025-03-11,18,4847.11,Completed,Electrical
+M-00094,E-00094,U-019,Preventive,2025-07-07,2025-07-09,18,15072.71,In Progress,Electrical
+M-00095,E-00384,U-030,Preventive,2025-02-05,2025-02-08,12,15307.68,Completed,No Failure
+M-00096,E-01359,U-009,Corrective,2026-04-13,2026-04-24,11,10271.9,Overdue,No Failure
+M-00097,E-00016,U-048,Inspection,2025-01-06,2025-01-08,3,23804.83,In Progress,Mechanical
+M-00098,E-01727,U-002,Preventive,2025-08-06,2025-08-11,10,13475.18,In Progress,Power
+M-00099,E-01606,U-026,Corrective,2026-06-07,2026-06-09,12,22872.06,In Progress,Mechanical
+M-00100,E-01473,U-020,Corrective,2026-05-20,2026-05-27,4,3282.38,Overdue,No Failure
+M-00001,E-00958,U-042,Inspection,2025-08-26,2025-09-04,14,19735.49,In Progress,No Failure

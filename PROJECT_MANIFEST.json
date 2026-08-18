@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "synthetic": true,
+  "seed": 42,
+  "datasets": {
+    "units": 60,
+    "personnel": 3000,
+    "equipment": 1800,
+    "maintenance": 2200,
+    "training": 2400,
+    "missions": 1100,
+    "incidents": 1000,
+    "logistics": 1000
+  },
+  "total_records": 12560
+}

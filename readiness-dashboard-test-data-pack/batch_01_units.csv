@@ -1,0 +1,101 @@
+unit_id,unit_name,unit_type,region,base_location,commanding_structure,personnel_authorized,personnel_actual,readiness_score,operational_status
+TEST-U001,Test Armored Unit 001,Armored,South,Bravo Station,Command Group 2,462,347,70.4,Operational
+TEST-U002,Test Air Defense Unit 002,Air Defense,East,Central Command,Command Group 3,353,277,73.4,Operational
+TEST-U003,Test Logistics Unit 003,Logistics,West,Delta Camp,Command Group 4,432,397,87.1,Operational
+TEST-U004,Test Engineering Unit 004,Engineering,Central,Echo Field,Command Group 5,852,809,79.0,Operational
+TEST-U005,Test Signals Unit 005,Signals,Northeast,Falcon Garrison,Command Group 6,359,319,60.5,Limited
+TEST-U006,Test Medical Unit 006,Medical,North,Alpha Base,Command Group 7,226,224,83.1,Operational
+TEST-U007,Test Reconnaissance Unit 007,Reconnaissance,South,Bravo Station,Command Group 8,574,575,83.4,Operational
+TEST-U008,Test Infantry Unit 008,Infantry,East,Central Command,Command Group 9,291,294,85.6,Operational
+TEST-U009,Test Armored Unit 009,Armored,West,Delta Camp,Command Group 10,333,311,71.4,Operational
+TEST-U010,Test Air Defense Unit 010,Air Defense,Central,Echo Field,Command Group 11,778,610,68.7,Operational
+TEST-U011,Test Logistics Unit 011,Logistics,Northeast,Falcon Garrison,Command Group 12,806,582,81.0,Operational
+TEST-U012,Test Engineering Unit 012,Engineering,North,Alpha Base,Command Group 1,148,117,68.5,Operational
+TEST-U013,Test Signals Unit 013,Signals,South,Bravo Station,Command Group 2,144,143,64.5,Limited
+TEST-U014,Test Medical Unit 014,Medical,East,Central Command,Command Group 3,593,480,83.9,Operational
+TEST-U015,Test Reconnaissance Unit 015,Reconnaissance,West,Delta Camp,Command Group 4,152,154,79.2,Operational
+TEST-U016,Test Infantry Unit 016,Infantry,Central,Echo Field,Command Group 5,811,763,59.6,Limited
+TEST-U017,Test Armored Unit 017,Armored,Northeast,Falcon Garrison,Command Group 6,606,592,95.8,Operational
+TEST-U018,Test Air Defense Unit 018,Air Defense,North,Alpha Base,Command Group 7,351,326,58.0,Limited
+TEST-U019,Test Logistics Unit 019,Logistics,South,Bravo Station,Command Group 8,508,458,79.5,Operational
+TEST-U020,Test Engineering Unit 020,Engineering,East,Central Command,Command Group 9,491,492,51.4,Degraded
+TEST-U021,Test Signals Unit 021,Signals,West,Delta Camp,Command Group 10,382,338,65.0,Operational
+TEST-U022,Test Medical Unit 022,Medical,Central,Echo Field,Command Group 11,572,563,85.1,Operational
+TEST-U023,Test Reconnaissance Unit 023,Reconnaissance,Northeast,Falcon Garrison,Command Group 12,874,862,87.4,Operational
+TEST-U024,Test Infantry Unit 024,Infantry,North,Alpha Base,Command Group 1,643,509,72.8,Operational
+TEST-U025,Test Armored Unit 025,Armored,South,Bravo Station,Command Group 2,312,226,53.5,Degraded
+TEST-U026,Test Air Defense Unit 026,Air Defense,East,Central Command,Command Group 3,778,726,55.4,Limited
+TEST-U027,Test Logistics Unit 027,Logistics,West,Delta Camp,Command Group 4,359,315,52.7,Degraded
+TEST-U028,Test Engineering Unit 028,Engineering,Central,Echo Field,Command Group 5,573,459,96.7,Operational
+TEST-U029,Test Signals Unit 029,Signals,Northeast,Falcon Garrison,Command Group 6,332,310,72.9,Operational
+TEST-U030,Test Medical Unit 030,Medical,North,Alpha Base,Command Group 7,618,505,54.6,Degraded
+TEST-U031,Test Reconnaissance Unit 031,Reconnaissance,South,Bravo Station,Command Group 8,754,585,84.1,Operational
+TEST-U032,Test Infantry Unit 032,Infantry,East,Central Command,Command Group 9,697,644,89.1,Operational
+TEST-U033,Test Armored Unit 033,Armored,West,Delta Camp,Command Group 10,539,505,95.3,Operational
+TEST-U034,Test Air Defense Unit 034,Air Defense,Central,Echo Field,Command Group 11,255,214,90.8,Operational
+TEST-U035,Test Logistics Unit 035,Logistics,Northeast,Falcon Garrison,Command Group 12,801,614,48.8,Degraded
+TEST-U036,Test Engineering Unit 036,Engineering,North,Alpha Base,Command Group 1,512,477,71.6,Operational
+TEST-U037,Test Signals Unit 037,Signals,South,Bravo Station,Command Group 2,517,495,91.2,Operational
+TEST-U038,Test Medical Unit 038,Medical,East,Central Command,Command Group 3,307,242,83.9,Operational
+TEST-U039,Test Reconnaissance Unit 039,Reconnaissance,West,Delta Camp,Command Group 4,849,635,63.4,Limited
+TEST-U040,Test Infantry Unit 040,Infantry,Central,Echo Field,Command Group 5,438,407,67.0,Operational
+TEST-U041,Test Armored Unit 041,Armored,Northeast,Falcon Garrison,Command Group 6,804,816,66.7,Operational
+TEST-U042,Test Air Defense Unit 042,Air Defense,North,Alpha Base,Command Group 7,322,283,93.7,Operational
+TEST-U043,Test Logistics Unit 043,Logistics,South,Bravo Station,Command Group 8,835,644,51.6,Degraded
+TEST-U044,Test Engineering Unit 044,Engineering,East,Central Command,Command Group 9,505,395,58.8,Limited
+TEST-U045,Test Signals Unit 045,Signals,West,Delta Camp,Command Group 10,577,436,72.2,Operational
+TEST-U046,Test Medical Unit 046,Medical,Central,Echo Field,Command Group 11,309,315,61.9,Limited
+TEST-U047,Test Reconnaissance Unit 047,Reconnaissance,Northeast,Falcon Garrison,Command Group 12,433,378,89.2,Operational
+TEST-U048,Test Infantry Unit 048,Infantry,North,Alpha Base,Command Group 1,631,585,66.2,Operational
+TEST-U049,Test Armored Unit 049,Armored,South,Bravo Station,Command Group 2,614,477,60.3,Limited
+TEST-U050,Test Air Defense Unit 050,Air Defense,East,Central Command,Command Group 3,320,317,93.5,Operational
+TEST-U051,Test Logistics Unit 051,Logistics,West,Delta Camp,Command Group 4,573,508,88.1,Operational
+TEST-U052,Test Engineering Unit 052,Engineering,Central,Echo Field,Command Group 5,383,284,97.8,Operational
+TEST-U053,Test Signals Unit 053,Signals,Northeast,Falcon Garrison,Command Group 6,565,523,54.2,Degraded
+TEST-U054,Test Medical Unit 054,Medical,North,Alpha Base,Command Group 7,671,542,88.2,Operational
+TEST-U055,Test Reconnaissance Unit 055,Reconnaissance,South,Bravo Station,Command Group 8,833,744,92.2,Operational
+TEST-U056,Test Infantry Unit 056,Infantry,East,Central Command,Command Group 9,475,461,87.3,Operational
+TEST-U057,Test Armored Unit 057,Armored,West,Delta Camp,Command Group 10,522,421,86.8,Operational
+TEST-U058,Test Air Defense Unit 058,Air Defense,Central,Echo Field,Command Group 11,337,250,52.8,Degraded
+TEST-U059,Test Logistics Unit 059,Logistics,Northeast,Falcon Garrison,Command Group 12,798,676,76.3,Operational
+TEST-U060,Test Engineering Unit 060,Engineering,North,Alpha Base,Command Group 1,534,408,49.4,Degraded
+TEST-U061,Test Signals Unit 061,Signals,South,Bravo Station,Command Group 2,168,135,79.0,Operational
+TEST-U062,Test Medical Unit 062,Medical,East,Central Command,Command Group 3,409,301,48.4,Degraded
+TEST-U063,Test Reconnaissance Unit 063,Reconnaissance,West,Delta Camp,Command Group 4,381,354,48.2,Degraded
+TEST-U064,Test Infantry Unit 064,Infantry,Central,Echo Field,Command Group 5,659,574,78.9,Operational
+TEST-U065,Test Armored Unit 065,Armored,Northeast,Falcon Garrison,Command Group 6,175,167,77.7,Operational
+TEST-U066,Test Air Defense Unit 066,Air Defense,North,Alpha Base,Command Group 7,591,557,82.4,Operational
+TEST-U067,Test Logistics Unit 067,Logistics,South,Bravo Station,Command Group 8,681,664,51.3,Degraded
+TEST-U068,Test Engineering Unit 068,Engineering,East,Central Command,Command Group 9,676,664,53.4,Degraded
+TEST-U069,Test Signals Unit 069,Signals,West,Delta Camp,Command Group 10,724,726,79.2,Operational
+TEST-U070,Test Medical Unit 070,Medical,Central,Echo Field,Command Group 11,291,243,50.6,Degraded
+TEST-U071,Test Reconnaissance Unit 071,Reconnaissance,Northeast,Falcon Garrison,Command Group 12,240,201,49.3,Degraded
+TEST-U072,Test Infantry Unit 072,Infantry,North,Alpha Base,Command Group 1,331,286,49.2,Degraded
+TEST-U073,Test Armored Unit 073,Armored,South,Bravo Station,Command Group 2,404,405,67.6,Operational
+TEST-U074,Test Air Defense Unit 074,Air Defense,East,Central Command,Command Group 3,763,553,85.0,Operational
+TEST-U075,Test Logistics Unit 075,Logistics,West,Delta Camp,Command Group 4,223,186,55.2,Limited
+TEST-U076,Test Engineering Unit 076,Engineering,Central,Echo Field,Command Group 5,897,885,83.7,Operational
+TEST-U077,Test Signals Unit 077,Signals,Northeast,Falcon Garrison,Command Group 6,527,402,95.6,Operational
+TEST-U078,Test Medical Unit 078,Medical,North,Alpha Base,Command Group 7,535,414,68.1,Operational
+TEST-U079,Test Reconnaissance Unit 079,Reconnaissance,South,Bravo Station,Command Group 8,497,449,66.3,Operational
+TEST-U080,Test Infantry Unit 080,Infantry,East,Central Command,Command Group 9,761,703,61.1,Limited
+TEST-U081,Test Armored Unit 081,Armored,West,Delta Camp,Command Group 10,883,758,82.4,Operational
+TEST-U082,Test Air Defense Unit 082,Air Defense,Central,Echo Field,Command Group 11,734,559,55.8,Limited
+TEST-U083,Test Logistics Unit 083,Logistics,Northeast,Falcon Garrison,Command Group 12,371,275,64.3,Limited
+TEST-U084,Test Engineering Unit 084,Engineering,North,Alpha Base,Command Group 1,494,406,53.4,Degraded
+TEST-U085,Test Signals Unit 085,Signals,South,Bravo Station,Command Group 2,542,394,56.1,Limited
+TEST-U086,Test Medical Unit 086,Medical,East,Central Command,Command Group 3,773,766,50.3,Degraded
+TEST-U087,Test Reconnaissance Unit 087,Reconnaissance,West,Delta Camp,Command Group 4,377,276,72.6,Operational
+TEST-U088,Test Infantry Unit 088,Infantry,Central,Echo Field,Command Group 5,329,280,57.4,Limited
+TEST-U089,Test Armored Unit 089,Armored,Northeast,Falcon Garrison,Command Group 6,153,115,65.1,Operational
+TEST-U090,Test Air Defense Unit 090,Air Defense,North,Alpha Base,Command Group 7,726,683,82.6,Operational
+TEST-U091,Test Logistics Unit 091,Logistics,South,Bravo Station,Command Group 8,424,394,80.2,Operational
+TEST-U092,Test Engineering Unit 092,Engineering,East,Central Command,Command Group 9,772,601,69.2,Operational
+TEST-U093,Test Signals Unit 093,Signals,West,Delta Camp,Command Group 10,329,297,87.7,Operational
+TEST-U094,Test Medical Unit 094,Medical,Central,Echo Field,Command Group 11,509,453,76.4,Operational
+TEST-U095,Test Reconnaissance Unit 095,Reconnaissance,Northeast,Falcon Garrison,Command Group 12,587,523,84.3,Operational
+TEST-U096,Test Infantry Unit 096,Infantry,North,Alpha Base,Command Group 1,528,413,65.2,Operational
+TEST-U097,Test Armored Unit 097,Armored,South,Bravo Station,Command Group 2,573,563,61.2,Limited
+TEST-U098,Test Air Defense Unit 098,Air Defense,East,Central Command,Command Group 3,210,206,77.5,Operational
+TEST-U099,Test Logistics Unit 099,Logistics,West,Delta Camp,Command Group 4,229,223,93.3,Operational
+TEST-U100,Test Engineering Unit 100,Engineering,Central,Echo Field,Command Group 5,610,480,97.9,Operational

@@ -1,0 +1,102 @@
+transaction_id,unit_id,supply_category,item_name,quantity,consumption,reorder_level,transaction_date,delivery_status
+L-00001,U-031,Medical,Kit C,159,148,156,2025-03-18,Pending
+L-00002,U-029,Food,Kit C,244,45,112,2025-01-26,Pending
+L-00003,U-029,Food,Kit C,453,108,51,2025-01-14,Delivered
+L-00004,U-041,Food,Supply D,581,86,148,2026-01-10,Delivered
+L-00005,U-023,Fuel,Supply D,635,106,72,2025-05-30,In Transit
+L-00006,U-058,Medical,Supply D,983,23,147,2026-01-03,Pending
+L-00007,U-010,Medical,Supply D,949,17,94,2025-07-08,Pending
+L-00008,U-020,Fuel,Component A,829,126,98,2026-06-13,Pending
+L-00009,U-053,Parts,Supply D,122,84,76,2025-03-03,In Transit
+L-00010,U-046,Parts,Supply D,956,91,65,2026-02-16,Pending
+L-00011,U-003,Food,Kit C,946,16,64,2026-04-16,Pending
+L-00012,U-050,Medical,Component B,641,126,91,2025-03-17,In Transit
+L-00013,U-033,Food,Supply D,59,115,163,2025-11-08,Pending
+L-00014,U-005,Fuel,Component A,573,61,152,2025-07-27,Pending
+L-00015,U-043,Medical,Component B,854,120,158,2025-09-05,Delivered
+L-00016,U-028,Fuel,Component B,133,150,131,2025-12-15,Pending
+L-00017,U-058,Medical,Supply D,822,121,91,2026-04-22,Delivered
+L-00018,U-036,Medical,Component A,554,38,127,2026-04-21,In Transit
+L-00019,U-012,Fuel,Component B,876,70,150,2026-05-16,Delivered
+L-00020,U-051,Food,Component A,920,84,192,2026-03-13,In Transit
+L-00021,U-044,Food,Kit C,545,32,68,2026-06-16,Delivered
+L-00022,U-017,Fuel,Kit C,991,117,197,2025-03-31,Delivered
+L-00023,U-038,Food,Component B,726,66,87,2025-05-31,Pending
+L-00024,U-002,Food,Component A,969,52,68,2025-08-06,In Transit
+L-00025,U-032,Food,Supply D,204,20,112,2026-07-06,Pending
+L-00026,U-060,Food,Kit C,482,109,67,2026-03-18,In Transit
+L-00027,U-014,Food,Component A,504,109,112,2025-06-27,In Transit
+L-00028,U-020,Medical,Component B,685,31,189,2025-08-31,Pending
+L-00029,U-029,Fuel,Kit C,740,91,106,2025-01-15,Pending
+L-00030,U-060,Parts,Supply D,690,59,59,2025-04-16,In Transit
+L-00031,U-028,Fuel,Kit C,905,135,69,2025-03-26,Pending
+L-00032,U-035,Parts,Supply D,742,142,63,2025-09-04,Delivered
+L-00033,U-048,Medical,Component A,902,53,110,2026-01-21,Delivered
+L-00034,U-020,Food,Kit C,958,59,138,2026-01-14,In Transit
+L-00035,U-042,Parts,Kit C,454,121,54,2026-07-03,Delivered
+L-00036,U-037,Medical,Kit C,183,137,183,2025-06-10,In Transit
+L-00037,U-029,Food,Component B,427,87,93,2026-04-21,Pending
+L-00038,U-057,Fuel,Component B,870,23,115,2026-01-20,In Transit
+L-00039,U-023,Food,Supply D,676,90,102,2025-09-09,In Transit
+L-00040,U-008,Parts,Kit C,755,28,80,2026-04-20,Delivered
+L-00041,U-036,Food,Kit C,516,38,63,2026-06-25,Delivered
+L-00042,U-030,Food,Supply D,100,62,67,2025-08-11,In Transit
+L-00043,U-011,Fuel,Supply D,344,49,198,2025-10-09,In Transit
+L-00044,U-016,Medical,Kit C,872,149,137,2025-11-01,Delivered
+L-00045,U-041,Parts,Kit C,698,128,119,2026-03-25,In Transit
+L-00046,U-049,Parts,Component A,257,124,72,2025-10-17,Pending
+L-00047,U-010,Parts,Supply D,968,52,96,2026-01-11,Pending
+L-00048,U-037,Food,Kit C,798,107,52,2026-01-24,In Transit
+L-00049,U-002,Food,Kit C,173,31,136,2026-06-23,In Transit
+L-00050,U-023,Medical,Component A,146,30,110,2025-11-28,In Transit
+L-00051,U-024,Fuel,Component A,615,36,156,2026-02-14,Pending
+L-00052,U-002,Food,Supply D,414,118,97,2025-04-18,Delivered
+L-00053,U-028,Medical,Component B,68,20,188,2025-02-05,Delivered
+L-00054,U-058,Parts,Component B,800,118,176,2026-06-27,Delivered
+L-00055,U-050,Food,Component A,924,72,53,2026-05-27,Pending
+L-00056,U-034,Fuel,Component A,513,53,148,2025-07-22,Pending
+L-00057,U-001,Food,Kit C,754,38,73,2026-03-06,Pending
+L-00058,U-003,Food,Component B,81,79,76,2025-12-01,Delivered
+L-00059,U-022,Fuel,Component B,533,18,134,2026-06-05,In Transit
+L-00060,U-057,Fuel,Component B,132,134,52,2025-02-23,Pending
+L-00061,U-047,Medical,Component A,409,93,77,2026-07-11,In Transit
+L-00062,U-034,Fuel,Kit C,642,13,97,2025-09-27,Delivered
+L-00063,U-015,Medical,Kit C,184,100,101,2025-07-21,In Transit
+L-00064,U-039,Parts,Component A,225,63,94,2025-11-06,Delivered
+L-00065,U-051,Medical,Component B,57,46,113,2025-01-17,Delivered
+L-00066,U-026,Parts,Component B,694,28,85,2026-05-19,In Transit
+L-00067,U-047,Medical,Supply D,643,13,117,2025-11-02,In Transit
+L-00068,U-058,Fuel,Component A,720,68,80,2025-02-01,Pending
+L-00069,U-029,Food,Supply D,981,13,147,2026-05-08,Pending
+L-00070,U-020,Parts,Kit C,397,62,98,2025-09-06,In Transit
+L-00071,U-044,Medical,Component B,844,127,166,2025-02-10,Delivered
+L-00072,U-044,Fuel,Component B,125,139,100,2026-02-13,Delivered
+L-00073,U-014,Food,Kit C,451,64,56,2026-03-08,Delivered
+L-00074,U-021,Parts,Kit C,111,66,74,2025-04-26,In Transit
+L-00075,U-016,Medical,Kit C,868,132,165,2025-08-29,In Transit
+L-00076,U-052,Medical,Component B,940,53,53,2025-09-08,In Transit
+L-00077,U-043,Food,Component A,715,42,93,2026-03-28,Delivered
+L-00078,U-012,Food,Component B,996,42,165,2025-05-19,Pending
+L-00079,U-034,Parts,Component B,525,16,127,2025-01-15,Delivered
+L-00080,U-038,Medical,Component A,783,135,67,2025-01-04,Delivered
+L-00081,U-037,Fuel,Supply D,292,77,140,2026-03-05,In Transit
+L-00082,U-055,Food,Kit C,909,101,140,2026-06-21,Pending
+L-00083,U-006,Fuel,Component B,826,123,59,2025-08-16,Delivered
+L-00084,U-058,Medical,Kit C,657,47,94,2025-06-20,Delivered
+L-00085,U-014,Parts,Component B,607,84,82,2025-04-06,Delivered
+L-00086,U-057,Fuel,Component A,898,68,62,2025-10-24,Pending
+L-00087,U-059,Food,Component A,219,94,98,2025-01-30,Delivered
+L-00088,U-039,Medical,Supply D,253,10,96,2025-01-28,Delivered
+L-00089,U-002,Medical,Component B,838,125,62,2025-01-21,Pending
+L-00090,U-012,Food,Component B,383,101,71,2026-06-08,In Transit
+L-00091,U-001,Parts,Component A,495,51,118,2025-09-05,Pending
+L-00092,U-031,Parts,Supply D,338,87,112,2025-01-08,In Transit
+L-00093,U-015,Parts,Supply D,410,117,155,2025-08-30,Delivered
+L-00094,U-003,Food,Component B,803,135,97,2025-11-30,Delivered
+L-00095,U-030,Food,Supply D,722,72,174,2025-09-22,Pending
+L-00096,U-036,Fuel,Kit C,140,69,87,2025-01-09,Delivered
+L-00097,U-032,Medical,Component A,421,110,129,2025-09-12,Delivered
+L-00098,U-054,Fuel,Component B,354,17,200,2026-06-25,Pending
+L-00099,U-031,Parts,Kit C,765,89,111,2025-07-26,Pending
+L-00100,U-059,Medical,Component B,523,36,187,2025-10-16,Delivered
+L-00001,U-031,Medical,Kit C,159,148,156,2025-03-18,Pending

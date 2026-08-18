@@ -1,0 +1,102 @@
+personnel_id,unit_id,rank,role,specialization,training_status,training_completion_percentage,deployment_status,joining_date
+P-00001,U-016,Senior,Analyst,Planning,In Progress,67.0,Deployed,2018-10-25
+P-00002,U-001,Junior,Operator,Maintenance,In Progress,75.6,Training,2020-12-22
+P-00003,U-009,Junior,Engineer,Operations,Complete,97.0,Deployed,2019-10-09
+P-00004,U-029,Lead,Logistics,Systems,Complete,92.5,Training,2024-03-21
+P-00005,U-020,Junior,Engineer,Operations,Complete,96.9,Available,2019-03-15
+P-00006,U-048,Lead,Analyst,Maintenance,In Progress,79.9,Training,2021-11-05
+P-00007,U-014,Lead,Logistics,Planning,In Progress,85.9,Deployed,2018-07-28
+P-00008,U-006,Lead,Operator,Systems,In Progress,83.5,Deployed,2019-06-20
+P-00009,U-041,Senior,Medic,Planning,Complete,99.1,Training,2018-02-09
+P-00010,U-008,Senior,Logistics,Systems,In Progress,58.4,Deployed,2024-07-13
+P-00011,U-036,Senior,Operator,Operations,In Progress,61.7,Deployed,2018-06-13
+P-00012,U-058,Senior,Operator,Operations,In Progress,71.1,Training,2022-07-23
+P-00013,U-040,Senior,Engineer,Maintenance,In Progress,88.7,Deployed,2018-04-12
+P-00014,U-012,Lead,Medic,Maintenance,In Progress,88.1,Deployed,2019-10-15
+P-00015,U-051,Officer,Operator,Planning,In Progress,86.6,Available,2020-03-28
+P-00016,U-053,Lead,Analyst,Maintenance,Complete,96.3,Available,2018-04-07
+P-00017,U-043,Lead,Analyst,Systems,In Progress,63.7,Deployed,2021-12-09
+P-00018,U-042,Lead,Operator,Systems,In Progress,77.9,Deployed,2020-01-02
+P-00019,U-038,Lead,Operator,Systems,Complete,98.3,Training,2022-11-15
+P-00020,U-023,Lead,Medic,Systems,In Progress,87.8,Deployed,2024-06-19
+P-00021,U-013,Officer,Operator,Maintenance,In Progress,66.5,Deployed,2022-11-02
+P-00022,U-005,Lead,Logistics,Operations,Complete,97.7,Training,2019-05-26
+P-00023,U-047,Lead,Medic,Operations,Complete,95.5,Deployed,2025-10-26
+P-00024,U-019,Senior,Medic,Planning,In Progress,79.9,Training,2019-12-14
+P-00025,U-040,Officer,Logistics,Systems,In Progress,80.6,Deployed,2021-03-21
+P-00026,U-014,Lead,Medic,Planning,In Progress,74.3,Deployed,2025-07-30
+P-00027,U-014,Senior,Operator,Operations,In Progress,78.0,Training,2025-06-12
+P-00028,U-041,Junior,Engineer,Operations,In Progress,82.9,Available,2020-03-26
+P-00029,U-010,Senior,Medic,Systems,In Progress,56.1,Deployed,2022-08-25
+P-00030,U-057,Senior,Medic,Planning,In Progress,83.3,Deployed,2020-09-26
+P-00031,U-010,Junior,Operator,Planning,In Progress,84.5,Available,2019-12-22
+P-00032,U-052,Officer,Operator,Maintenance,Complete,98.1,Available,2023-02-13
+P-00033,U-009,Lead,Medic,Planning,Complete,91.1,Training,2023-01-01
+P-00034,U-058,Officer,Medic,Operations,In Progress,62.2,Available,2025-02-24
+P-00035,U-018,Officer,Engineer,Operations,In Progress,89.5,Deployed,2018-11-14
+P-00036,U-046,Lead,Analyst,Operations,In Progress,67.9,Training,2018-11-27
+P-00037,U-009,Officer,Engineer,Maintenance,In Progress,61.8,Available,2022-08-27
+P-00038,U-027,Officer,Medic,Systems,In Progress,69.9,Available,2022-09-17
+P-00039,U-025,Junior,Logistics,Planning,Complete,95.7,Deployed,2018-01-25
+P-00040,U-023,Officer,Medic,Maintenance,In Progress,68.4,Deployed,2020-06-17
+P-00041,U-018,Junior,Medic,Operations,In Progress,74.6,Training,2025-08-13
+P-00042,U-052,Senior,Medic,Maintenance,In Progress,73.2,Training,2023-12-28
+P-00043,U-002,Junior,Operator,Planning,Complete,95.8,Available,2023-03-07
+P-00044,U-012,Officer,Analyst,Maintenance,In Progress,57.3,Deployed,2021-08-31
+P-00045,U-022,Officer,Analyst,Planning,In Progress,89.3,Deployed,2018-12-02
+P-00046,U-031,Junior,Analyst,Maintenance,In Progress,55.9,Training,2018-10-09
+P-00047,U-050,Junior,Operator,Maintenance,Complete,98.1,Available,2018-03-25
+P-00048,U-040,Senior,Medic,Systems,In Progress,61.9,Training,2020-06-11
+P-00049,U-030,Lead,Engineer,Systems,In Progress,86.5,Available,2021-06-28
+P-00050,U-007,Lead,Logistics,Planning,In Progress,81.0,Deployed,2026-01-07
+P-00051,U-013,Senior,Operator,Operations,In Progress,58.4,Training,2024-09-25
+P-00052,U-052,Junior,Analyst,Planning,In Progress,60.4,Training,2022-02-26
+P-00053,U-005,Lead,Operator,Planning,In Progress,77.8,Deployed,2019-03-09
+P-00054,U-028,Officer,Engineer,Planning,Complete,98.2,Available,2023-11-08
+P-00055,U-042,Officer,Medic,Planning,In Progress,67.2,Training,2024-08-23
+P-00056,U-018,Senior,Operator,Operations,In Progress,69.5,Deployed,2020-09-25
+P-00057,U-049,Officer,Analyst,Systems,In Progress,75.9,Deployed,2021-08-24
+P-00058,U-012,Lead,Analyst,Operations,In Progress,76.9,Deployed,2024-09-07
+P-00059,U-045,Junior,Logistics,Maintenance,Complete,94.6,Available,2020-09-15
+P-00060,U-047,Senior,Medic,Planning,In Progress,73.3,Deployed,2018-03-12
+P-00061,U-006,Officer,Engineer,Operations,In Progress,68.2,Training,2024-07-10
+P-00062,U-024,Lead,Medic,Operations,In Progress,76.3,Deployed,2025-11-18
+P-00063,U-030,Lead,Engineer,Systems,In Progress,67.2,Training,2020-02-28
+P-00064,U-021,Senior,Engineer,Maintenance,In Progress,60.4,Training,2023-06-07
+P-00065,U-018,Lead,Operator,Maintenance,In Progress,87.6,Deployed,2020-07-20
+P-00066,U-024,Junior,Logistics,Maintenance,In Progress,63.1,Deployed,2018-07-06
+P-00067,U-004,Senior,Medic,Systems,In Progress,79.9,Available,2024-06-09
+P-00068,U-019,Officer,Analyst,Maintenance,In Progress,76.1,Available,2020-10-31
+P-00069,U-056,Junior,Medic,Planning,In Progress,76.5,Available,2024-06-21
+P-00070,U-041,Senior,Engineer,Operations,In Progress,85.9,Available,2020-10-13
+P-00071,U-008,Officer,Logistics,Maintenance,In Progress,80.1,Training,2022-04-08
+P-00072,U-029,Lead,Logistics,Planning,Complete,95.9,Deployed,2024-05-18
+P-00073,U-040,Junior,Engineer,Maintenance,In Progress,57.7,Deployed,2025-05-29
+P-00074,U-006,Senior,Logistics,Systems,In Progress,62.1,Available,2018-01-11
+P-00075,U-027,Officer,Analyst,Systems,In Progress,75.3,Available,2021-03-26
+P-00076,U-046,Officer,Operator,Maintenance,In Progress,67.7,Deployed,2025-01-04
+P-00077,U-038,Senior,Medic,Systems,In Progress,84.8,Training,2020-07-09
+P-00078,U-042,Lead,Engineer,Systems,In Progress,61.7,Available,2019-11-11
+P-00079,U-051,Lead,Medic,Systems,In Progress,68.8,Deployed,2025-09-21
+P-00080,U-020,Lead,Logistics,Planning,In Progress,86.5,Deployed,2018-11-26
+P-00081,U-039,Officer,Analyst,Operations,In Progress,56.8,Available,2019-01-10
+P-00082,U-015,Junior,Analyst,Systems,Complete,98.3,Available,2023-04-12
+P-00083,U-034,Lead,Engineer,Planning,In Progress,84.3,Training,2023-07-08
+P-00084,U-006,Officer,Analyst,Operations,In Progress,76.2,Training,2019-03-05
+P-00085,U-055,Officer,Medic,Operations,In Progress,62.2,Training,2022-06-29
+P-00086,U-053,Junior,Medic,Systems,In Progress,89.2,Deployed,2020-10-30
+P-00087,U-021,Officer,Logistics,Systems,In Progress,60.2,Training,2024-02-01
+P-00088,U-030,Senior,Logistics,Operations,In Progress,73.6,Training,2023-08-04
+P-00089,U-041,Junior,Engineer,Operations,In Progress,74.9,Training,2019-06-21
+P-00090,U-060,Officer,Operator,Systems,In Progress,68.0,Training,2024-10-29
+P-00091,U-052,Senior,Analyst,Systems,In Progress,65.8,Training,2022-07-30
+P-00092,U-006,Junior,Medic,Systems,In Progress,65.1,Training,2019-09-23
+P-00093,U-032,Lead,Logistics,Operations,Complete,97.0,Deployed,2023-05-31
+P-00094,U-031,Senior,Medic,Maintenance,In Progress,66.0,Training,2023-09-13
+P-00095,U-048,Junior,Analyst,Planning,Complete,94.6,Deployed,2023-09-11
+P-00096,U-018,Lead,Analyst,Planning,Complete,91.9,Available,2023-01-04
+P-00097,U-035,Lead,Logistics,Planning,In Progress,76.8,Deployed,2021-08-11
+P-00098,U-056,Senior,Logistics,Planning,In Progress,63.5,Available,2022-08-10
+P-00099,U-003,Officer,Medic,Planning,In Progress,69.3,Training,2025-04-24
+P-00100,U-010,Junior,Engineer,Operations,In Progress,77.3,Available,2022-12-09
+P-00001,U-016,Senior,Analyst,Planning,In Progress,67.0,Deployed,2018-10-25

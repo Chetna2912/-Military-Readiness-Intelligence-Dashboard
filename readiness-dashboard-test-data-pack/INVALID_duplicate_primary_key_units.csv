@@ -1,0 +1,3 @@
+unit_id,unit_name,unit_type,region,base_location,commanding_structure,personnel_authorized,personnel_actual,readiness_score,operational_status
+TEST-U001,Test Armored Unit 001,Armored,South,Bravo Station,Command Group 2,462,347,70.4,Operational
+TEST-U001,Test Armored Unit 001,Armored,South,Bravo Station,Command Group 2,462,347,70.4,Operational

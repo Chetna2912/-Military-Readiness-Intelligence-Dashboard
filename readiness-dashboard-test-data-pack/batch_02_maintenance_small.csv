@@ -1,0 +1,11 @@
+maintenance_id,equipment_id,unit_id,maintenance_type,maintenance_date,completion_date,downtime_days,maintenance_cost,maintenance_status,failure_category
+TEST-M0001,TEST-E0156,TEST-U073,Preventive,2026-10-30,,6,73635.05,Overdue,Wear
+TEST-M0002,TEST-E0088,TEST-U085,Inspection,2027-06-03,2027-06-12,7,66921.12,Completed,None
+TEST-M0003,TEST-E0283,TEST-U075,Corrective,2027-01-03,,14,28726.63,Overdue,Power
+TEST-M0004,TEST-E0041,TEST-U013,Corrective,2026-08-04,,11,31125.75,Overdue,Wear
+TEST-M0005,TEST-E0044,TEST-U006,Inspection,2026-10-07,2026-10-27,0,41254.0,Completed,Mechanical
+TEST-M0006,TEST-E0130,TEST-U046,Preventive,2026-07-08,,14,65790.44,In Progress,Mechanical
+TEST-M0007,TEST-E0152,TEST-U080,Preventive,2026-08-16,,2,47034.94,In Progress,Power
+TEST-M0008,TEST-E0075,TEST-U017,Inspection,2026-08-01,2026-08-11,22,7549.02,Completed,Wear
+TEST-M0009,TEST-E0198,TEST-U062,Overhaul,2026-10-30,2026-11-16,17,68656.29,Completed,None
+TEST-M0010,TEST-E0162,TEST-U067,Preventive,2026-11-01,2026-11-03,17,44135.54,Completed,Wear

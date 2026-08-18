@@ -1,0 +1,11 @@
+unit_id,unit_name,unit_type,region,base_location,commanding_structure,personnel_authorized,personnel_actual,readiness_score,operational_status
+TEST-U001,Test Armored Unit 001,Armored,South,Bravo Station,Command Group 2,462,347,70.4,Operational
+TEST-U002,Test Air Defense Unit 002,Air Defense,East,Central Command,Command Group 3,353,277,73.4,Operational
+TEST-U003,Test Logistics Unit 003,Logistics,West,Delta Camp,Command Group 4,432,397,87.1,Operational
+TEST-U004,Test Engineering Unit 004,Engineering,Central,Echo Field,Command Group 5,852,809,79.0,Operational
+TEST-U005,Test Signals Unit 005,Signals,Northeast,Falcon Garrison,Command Group 6,359,319,60.5,Limited
+TEST-U006,Test Medical Unit 006,Medical,North,Alpha Base,Command Group 7,226,224,83.1,Operational
+TEST-U007,Test Reconnaissance Unit 007,Reconnaissance,South,Bravo Station,Command Group 8,574,575,83.4,Operational
+TEST-U008,Test Infantry Unit 008,Infantry,East,Central Command,Command Group 9,291,294,85.6,Operational
+TEST-U009,Test Armored Unit 009,Armored,West,Delta Camp,Command Group 10,333,311,71.4,Operational
+TEST-U010,Test Air Defense Unit 010,Air Defense,Central,Echo Field,Command Group 11,778,610,68.7,Operational

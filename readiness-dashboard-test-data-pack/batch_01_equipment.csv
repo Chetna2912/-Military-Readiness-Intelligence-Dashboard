@@ -1,0 +1,301 @@
+equipment_id,unit_id,equipment_type,category,manufacturer,acquisition_year,operational_status,condition,utilization_rate,last_maintenance_date,next_maintenance_date,downtime_days
+TEST-E0001,TEST-U049,Engineering Kit,Command,Northstar Industries,2017,Operational,Good,50.3,2025-12-02,2026-02-18,0
+TEST-E0002,TEST-U027,Generator,Command,Northstar Industries,2025,Operational,Poor,66.7,2026-04-20,2026-08-16,0
+TEST-E0003,TEST-U065,Radio,Command,Summit Technologies,2017,Non-Operational,Excellent,49.8,2027-02-20,2027-04-20,43
+TEST-E0004,TEST-U084,Radar,Power,Atlas Systems,2025,Operational,Poor,29.5,2026-01-25,2026-04-08,0
+TEST-E0005,TEST-U100,Radar,Command,Northstar Industries,2024,Maintenance,Fair,75.5,2025-10-31,2026-04-13,23
+TEST-E0006,TEST-U028,Vehicle,Communications,Northstar Industries,2021,Operational,Excellent,72.7,2027-02-26,2027-05-26,0
+TEST-E0007,TEST-U019,Radar,Surveillance,Orion Works,2020,Operational,Excellent,33.6,2026-01-05,2026-03-08,0
+TEST-E0008,TEST-U027,Engineering Kit,Engineering,Orion Works,2020,Operational,Excellent,25.0,2026-05-04,2026-10-27,0
+TEST-E0009,TEST-U074,Generator,Command,Vector Dynamics,2024,Operational,Fair,28.4,2026-03-25,2026-05-16,0
+TEST-E0010,TEST-U019,Radio,Medical,Vector Dynamics,2021,Operational,Fair,38.5,2026-08-19,2027-01-06,0
+TEST-E0011,TEST-U069,Medical System,Power,Northstar Industries,2024,Operational,Good,86.3,2027-02-28,2027-04-06,0
+TEST-E0012,TEST-U078,Medical System,Communications,Orion Works,2017,Operational,Good,27.9,2026-06-06,2026-09-22,0
+TEST-E0013,TEST-U072,Command System,Communications,Summit Technologies,2023,Operational,Fair,85.4,2027-01-02,2027-04-10,0
+TEST-E0014,TEST-U037,Drone,Command,Summit Technologies,2022,Non-Operational,Good,76.5,2026-06-10,2026-10-04,7
+TEST-E0015,TEST-U002,Command System,Communications,Northstar Industries,2020,Operational,Good,84.0,2026-04-29,2026-05-31,0
+TEST-E0016,TEST-U061,Vehicle,Command,Vector Dynamics,2025,Maintenance,Fair,91.6,2026-10-14,2026-11-19,28
+TEST-E0017,TEST-U057,Medical System,Mobility,Orion Works,2020,Non-Operational,Good,88.6,2026-07-27,2026-09-02,3
+TEST-E0018,TEST-U065,Radio,Engineering,Vector Dynamics,2024,Operational,Excellent,24.8,2026-12-16,2027-04-04,0
+TEST-E0019,TEST-U070,Radar,Command,Vector Dynamics,2019,Operational,Fair,76.5,2026-04-06,2026-07-31,0
+TEST-E0020,TEST-U022,Radar,Engineering,Summit Technologies,2023,Operational,Poor,96.2,2026-12-17,2027-05-02,0
+TEST-E0021,TEST-U003,Drone,Communications,Northstar Industries,2019,Operational,Poor,76.1,2025-12-16,2026-02-27,0
+TEST-E0022,TEST-U008,Radar,Mobility,Summit Technologies,2017,Maintenance,Good,50.5,2026-02-08,2026-04-02,3
+TEST-E0023,TEST-U075,Radio,Command,Atlas Systems,2018,Operational,Fair,46.3,2026-02-28,2026-07-09,0
+TEST-E0024,TEST-U059,Engineering Kit,Power,Vector Dynamics,2023,Maintenance,Poor,19.9,2026-01-01,2026-06-12,8
+TEST-E0025,TEST-U063,Generator,Engineering,Orion Works,2023,Operational,Excellent,66.1,2026-02-04,2026-06-13,0
+TEST-E0026,TEST-U050,Engineering Kit,Medical,Northstar Industries,2021,Operational,Fair,53.2,2026-06-29,2026-12-26,0
+TEST-E0027,TEST-U051,Drone,Surveillance,Vector Dynamics,2021,Operational,Excellent,18.8,2026-07-07,2026-12-30,0
+TEST-E0028,TEST-U089,Generator,Mobility,Summit Technologies,2024,Operational,Fair,37.6,2026-09-12,2027-01-07,0
+TEST-E0029,TEST-U084,Medical System,Medical,Vector Dynamics,2022,Operational,Fair,23.1,2026-05-30,2026-07-26,0
+TEST-E0030,TEST-U079,Engineering Kit,Medical,Atlas Systems,2021,Operational,Good,57.3,2026-08-19,2026-12-09,0
+TEST-E0031,TEST-U046,Drone,Medical,Northstar Industries,2025,Operational,Good,88.5,2027-02-03,2027-06-28,0
+TEST-E0032,TEST-U061,Medical System,Surveillance,Summit Technologies,2019,Operational,Excellent,36.5,2026-03-09,2026-08-18,0
+TEST-E0033,TEST-U025,Engineering Kit,Communications,Summit Technologies,2019,Operational,Good,37.1,2026-09-25,2026-11-03,0
+TEST-E0034,TEST-U098,Vehicle,Mobility,Atlas Systems,2020,Operational,Excellent,30.8,2026-05-04,2026-07-21,0
+TEST-E0035,TEST-U076,Vehicle,Mobility,Northstar Industries,2024,Operational,Good,21.3,2026-06-17,2026-11-22,0
+TEST-E0036,TEST-U039,Drone,Power,Orion Works,2024,Maintenance,Good,95.0,2026-07-11,2026-12-26,13
+TEST-E0037,TEST-U016,Command System,Engineering,Northstar Industries,2022,Maintenance,Fair,19.1,2026-04-07,2026-05-08,23
+TEST-E0038,TEST-U058,Engineering Kit,Engineering,Atlas Systems,2022,Operational,Poor,26.0,2026-01-25,2026-07-22,0
+TEST-E0039,TEST-U048,Generator,Communications,Atlas Systems,2022,Operational,Fair,96.8,2026-01-20,2026-05-24,0
+TEST-E0040,TEST-U017,Vehicle,Medical,Atlas Systems,2019,Operational,Poor,45.0,2026-09-21,2027-02-08,0
+TEST-E0041,TEST-U013,Radar,Command,Northstar Industries,2024,Operational,Poor,22.1,2026-06-10,2026-11-14,0
+TEST-E0042,TEST-U009,Radio,Communications,Atlas Systems,2022,Maintenance,Fair,18.2,2026-05-27,2026-10-31,6
+TEST-E0043,TEST-U024,Drone,Surveillance,Atlas Systems,2020,Operational,Poor,83.1,2026-07-31,2027-01-03,0
+TEST-E0044,TEST-U006,Medical System,Command,Orion Works,2022,Operational,Good,76.7,2026-10-22,2026-12-17,0
+TEST-E0045,TEST-U013,Radio,Communications,Northstar Industries,2025,Operational,Poor,43.2,2026-10-12,2027-02-27,0
+TEST-E0046,TEST-U034,Medical System,Communications,Orion Works,2022,Operational,Good,38.6,2026-01-20,2026-03-16,0
+TEST-E0047,TEST-U045,Vehicle,Surveillance,Atlas Systems,2022,Operational,Excellent,70.9,2027-02-09,2027-03-14,0
+TEST-E0048,TEST-U094,Drone,Power,Summit Technologies,2024,Operational,Poor,78.9,2026-10-13,2026-12-20,0
+TEST-E0049,TEST-U073,Radar,Mobility,Summit Technologies,2020,Operational,Fair,19.8,2026-09-07,2026-11-13,0
+TEST-E0050,TEST-U071,Radar,Surveillance,Atlas Systems,2020,Operational,Excellent,16.6,2026-11-30,2027-03-24,0
+TEST-E0051,TEST-U025,Radio,Mobility,Orion Works,2021,Operational,Excellent,96.1,2025-12-16,2026-03-27,0
+TEST-E0052,TEST-U096,Vehicle,Power,Northstar Industries,2019,Operational,Good,40.5,2026-01-09,2026-07-07,0
+TEST-E0053,TEST-U037,Vehicle,Communications,Vector Dynamics,2018,Operational,Good,72.0,2026-08-24,2026-10-11,0
+TEST-E0054,TEST-U040,Vehicle,Mobility,Northstar Industries,2025,Operational,Good,96.5,2025-12-01,2026-02-07,0
+TEST-E0055,TEST-U074,Vehicle,Engineering,Atlas Systems,2024,Operational,Good,51.2,2026-04-08,2026-06-20,0
+TEST-E0056,TEST-U074,Medical System,Command,Orion Works,2021,Operational,Good,25.2,2025-12-09,2026-05-11,0
+TEST-E0057,TEST-U097,Radio,Command,Northstar Industries,2022,Operational,Excellent,32.2,2026-08-09,2026-12-16,0
+TEST-E0058,TEST-U075,Command System,Communications,Vector Dynamics,2021,Operational,Poor,44.3,2026-06-26,2026-09-01,0
+TEST-E0059,TEST-U040,Engineering Kit,Mobility,Northstar Industries,2020,Operational,Good,94.6,2026-05-04,2026-09-17,0
+TEST-E0060,TEST-U010,Medical System,Medical,Vector Dynamics,2023,Operational,Poor,70.0,2026-11-30,2027-03-01,0
+TEST-E0061,TEST-U006,Drone,Medical,Atlas Systems,2020,Operational,Poor,31.2,2026-11-14,2027-03-02,0
+TEST-E0062,TEST-U064,Vehicle,Mobility,Northstar Industries,2018,Operational,Good,80.2,2026-07-28,2026-09-27,0
+TEST-E0063,TEST-U034,Radio,Surveillance,Northstar Industries,2023,Operational,Excellent,58.6,2026-12-01,2027-05-11,0
+TEST-E0064,TEST-U003,Command System,Engineering,Summit Technologies,2024,Operational,Good,40.1,2026-10-07,2026-11-21,0
+TEST-E0065,TEST-U078,Generator,Medical,Vector Dynamics,2021,Operational,Good,75.0,2026-04-03,2026-09-20,0
+TEST-E0066,TEST-U084,Vehicle,Mobility,Vector Dynamics,2022,Operational,Good,95.9,2026-12-15,2027-04-03,0
+TEST-E0067,TEST-U085,Command System,Engineering,Orion Works,2019,Operational,Good,78.1,2026-02-13,2026-07-02,0
+TEST-E0068,TEST-U001,Medical System,Mobility,Northstar Industries,2022,Operational,Poor,54.4,2026-12-16,2027-04-18,0
+TEST-E0069,TEST-U016,Generator,Power,Northstar Industries,2019,Operational,Poor,53.7,2027-02-03,2027-03-16,0
+TEST-E0070,TEST-U033,Generator,Power,Vector Dynamics,2024,Operational,Fair,20.7,2027-02-09,2027-06-20,0
+TEST-E0071,TEST-U045,Engineering Kit,Engineering,Summit Technologies,2018,Maintenance,Poor,57.0,2026-01-18,2026-07-04,27
+TEST-E0072,TEST-U074,Radar,Surveillance,Summit Technologies,2022,Operational,Good,85.2,2025-12-27,2026-06-04,0
+TEST-E0073,TEST-U069,Generator,Command,Northstar Industries,2017,Non-Operational,Poor,65.5,2026-05-20,2026-09-06,27
+TEST-E0074,TEST-U076,Generator,Command,Northstar Industries,2019,Operational,Good,22.4,2026-06-04,2026-07-13,0
+TEST-E0075,TEST-U017,Command System,Medical,Orion Works,2024,Operational,Good,67.4,2025-11-25,2026-02-09,0
+TEST-E0076,TEST-U055,Radio,Medical,Orion Works,2023,Operational,Poor,89.9,2026-05-07,2026-09-14,0
+TEST-E0077,TEST-U086,Command System,Communications,Orion Works,2021,Operational,Poor,50.3,2027-01-22,2027-06-05,0
+TEST-E0078,TEST-U009,Radio,Communications,Northstar Industries,2020,Maintenance,Poor,79.3,2025-12-09,2026-04-30,32
+TEST-E0079,TEST-U023,Radar,Medical,Vector Dynamics,2021,Operational,Fair,41.2,2026-06-09,2026-11-01,0
+TEST-E0080,TEST-U015,Vehicle,Medical,Orion Works,2018,Operational,Poor,68.5,2025-12-02,2026-01-06,0
+TEST-E0081,TEST-U099,Drone,Communications,Vector Dynamics,2023,Operational,Fair,51.7,2026-05-30,2026-11-24,0
+TEST-E0082,TEST-U036,Engineering Kit,Surveillance,Atlas Systems,2024,Operational,Poor,26.2,2026-01-11,2026-03-09,0
+TEST-E0083,TEST-U075,Engineering Kit,Engineering,Vector Dynamics,2025,Operational,Good,74.2,2027-02-01,2027-06-29,0
+TEST-E0084,TEST-U046,Generator,Command,Summit Technologies,2018,Operational,Excellent,25.3,2025-11-02,2025-12-11,0
+TEST-E0085,TEST-U064,Drone,Communications,Summit Technologies,2017,Operational,Good,32.4,2026-03-20,2026-05-11,0
+TEST-E0086,TEST-U004,Medical System,Mobility,Summit Technologies,2018,Operational,Good,87.1,2026-11-15,2027-02-07,0
+TEST-E0087,TEST-U055,Generator,Mobility,Summit Technologies,2019,Operational,Fair,83.8,2027-02-23,2027-06-20,0
+TEST-E0088,TEST-U085,Radio,Communications,Vector Dynamics,2025,Operational,Good,95.2,2026-11-04,2027-01-27,0
+TEST-E0089,TEST-U043,Vehicle,Surveillance,Orion Works,2017,Operational,Good,71.5,2026-05-06,2026-09-15,0
+TEST-E0090,TEST-U054,Radio,Engineering,Summit Technologies,2021,Operational,Good,74.0,2027-03-12,2027-06-10,0
+TEST-E0091,TEST-U094,Radar,Communications,Vector Dynamics,2019,Operational,Poor,55.2,2026-12-23,2027-03-29,0
+TEST-E0092,TEST-U022,Radio,Medical,Vector Dynamics,2017,Operational,Excellent,77.4,2026-05-11,2026-10-20,0
+TEST-E0093,TEST-U037,Command System,Power,Summit Technologies,2017,Operational,Good,80.6,2026-04-25,2026-07-03,0
+TEST-E0094,TEST-U026,Medical System,Command,Atlas Systems,2023,Non-Operational,Poor,73.2,2026-01-20,2026-06-25,10
+TEST-E0095,TEST-U053,Vehicle,Command,Northstar Industries,2020,Operational,Good,82.8,2026-07-13,2026-09-14,0
+TEST-E0096,TEST-U074,Drone,Communications,Orion Works,2021,Operational,Good,51.0,2026-02-24,2026-05-30,0
+TEST-E0097,TEST-U084,Radar,Mobility,Atlas Systems,2021,Operational,Poor,29.9,2027-01-25,2027-05-06,0
+TEST-E0098,TEST-U048,Radio,Command,Northstar Industries,2024,Operational,Good,77.4,2026-12-05,2027-04-26,0
+TEST-E0099,TEST-U048,Radar,Power,Summit Technologies,2020,Operational,Poor,64.7,2026-12-14,2027-04-03,0
+TEST-E0100,TEST-U055,Radar,Engineering,Northstar Industries,2023,Operational,Good,32.3,2026-05-30,2026-09-09,0
+TEST-E0101,TEST-U031,Command System,Engineering,Summit Technologies,2023,Maintenance,Excellent,57.3,2026-08-29,2026-10-12,1
+TEST-E0102,TEST-U088,Drone,Power,Summit Technologies,2023,Maintenance,Fair,41.1,2026-06-30,2026-08-30,27
+TEST-E0103,TEST-U082,Engineering Kit,Medical,Orion Works,2018,Operational,Excellent,48.6,2027-02-13,2027-07-06,0
+TEST-E0104,TEST-U008,Radio,Power,Vector Dynamics,2020,Maintenance,Good,47.8,2025-11-09,2026-04-27,3
+TEST-E0105,TEST-U041,Radar,Mobility,Northstar Industries,2020,Operational,Poor,35.2,2026-07-09,2026-09-08,0
+TEST-E0106,TEST-U057,Radar,Surveillance,Summit Technologies,2017,Maintenance,Good,79.6,2026-09-24,2026-11-20,41
+TEST-E0107,TEST-U025,Vehicle,Power,Atlas Systems,2024,Operational,Poor,66.9,2026-10-19,2027-01-05,0
+TEST-E0108,TEST-U055,Generator,Mobility,Summit Technologies,2023,Operational,Good,81.1,2026-02-06,2026-05-09,0
+TEST-E0109,TEST-U074,Drone,Power,Atlas Systems,2021,Operational,Fair,33.2,2025-12-24,2026-02-05,0
+TEST-E0110,TEST-U025,Medical System,Engineering,Atlas Systems,2017,Operational,Good,88.9,2027-02-04,2027-05-01,0
+TEST-E0111,TEST-U037,Command System,Surveillance,Vector Dynamics,2018,Operational,Excellent,92.8,2027-01-12,2027-05-03,0
+TEST-E0112,TEST-U002,Radio,Mobility,Orion Works,2023,Operational,Excellent,22.0,2026-07-17,2026-09-21,0
+TEST-E0113,TEST-U046,Command System,Communications,Northstar Industries,2020,Operational,Poor,84.7,2025-12-23,2026-04-18,0
+TEST-E0114,TEST-U014,Radio,Surveillance,Summit Technologies,2025,Operational,Poor,89.8,2026-07-10,2026-08-22,0
+TEST-E0115,TEST-U027,Radar,Surveillance,Vector Dynamics,2017,Operational,Poor,67.5,2026-11-18,2027-01-04,0
+TEST-E0116,TEST-U047,Command System,Engineering,Atlas Systems,2021,Operational,Excellent,33.5,2026-02-26,2026-04-06,0
+TEST-E0117,TEST-U020,Radio,Mobility,Northstar Industries,2020,Operational,Poor,68.3,2026-09-15,2027-03-03,0
+TEST-E0118,TEST-U076,Medical System,Power,Orion Works,2022,Maintenance,Excellent,69.6,2026-05-20,2026-11-05,29
+TEST-E0119,TEST-U039,Vehicle,Engineering,Vector Dynamics,2021,Operational,Excellent,58.7,2027-01-17,2027-02-28,0
+TEST-E0120,TEST-U035,Engineering Kit,Command,Summit Technologies,2022,Operational,Poor,75.1,2026-08-28,2027-02-07,0
+TEST-E0121,TEST-U074,Drone,Command,Orion Works,2018,Operational,Excellent,19.1,2026-03-11,2026-08-05,0
+TEST-E0122,TEST-U098,Engineering Kit,Command,Orion Works,2018,Maintenance,Good,15.8,2025-12-09,2026-05-26,44
+TEST-E0123,TEST-U035,Medical System,Surveillance,Atlas Systems,2025,Operational,Excellent,53.1,2026-02-17,2026-05-09,0
+TEST-E0124,TEST-U100,Radar,Mobility,Atlas Systems,2025,Operational,Excellent,59.4,2026-07-26,2027-01-05,0
+TEST-E0125,TEST-U026,Radio,Mobility,Summit Technologies,2022,Operational,Poor,78.7,2025-12-27,2026-06-22,0
+TEST-E0126,TEST-U016,Command System,Power,Atlas Systems,2025,Operational,Fair,86.3,2026-08-13,2026-12-25,0
+TEST-E0127,TEST-U020,Engineering Kit,Mobility,Atlas Systems,2021,Operational,Excellent,91.8,2026-07-05,2026-09-03,0
+TEST-E0128,TEST-U098,Generator,Command,Orion Works,2024,Operational,Excellent,91.3,2026-10-16,2027-04-14,0
+TEST-E0129,TEST-U074,Vehicle,Communications,Summit Technologies,2021,Operational,Excellent,57.5,2026-08-26,2026-10-12,0
+TEST-E0130,TEST-U046,Radar,Medical,Atlas Systems,2021,Operational,Good,87.9,2025-11-28,2026-01-29,0
+TEST-E0131,TEST-U058,Radio,Surveillance,Atlas Systems,2021,Operational,Fair,19.4,2026-05-28,2026-08-21,0
+TEST-E0132,TEST-U058,Medical System,Medical,Orion Works,2017,Operational,Poor,47.3,2026-06-04,2026-11-18,0
+TEST-E0133,TEST-U084,Command System,Mobility,Atlas Systems,2019,Operational,Excellent,15.4,2026-05-11,2026-07-05,0
+TEST-E0134,TEST-U083,Generator,Command,Vector Dynamics,2021,Operational,Poor,36.2,2026-09-18,2026-12-10,0
+TEST-E0135,TEST-U078,Radio,Mobility,Vector Dynamics,2024,Operational,Fair,49.2,2025-12-10,2026-02-27,0
+TEST-E0136,TEST-U048,Generator,Command,Summit Technologies,2017,Operational,Good,48.9,2026-05-02,2026-07-12,0
+TEST-E0137,TEST-U069,Radio,Engineering,Orion Works,2017,Operational,Excellent,53.8,2027-02-01,2027-04-09,0
+TEST-E0138,TEST-U049,Command System,Medical,Summit Technologies,2025,Operational,Good,46.4,2026-12-09,2027-02-07,0
+TEST-E0139,TEST-U059,Drone,Mobility,Orion Works,2021,Operational,Excellent,44.7,2026-11-28,2027-04-10,0
+TEST-E0140,TEST-U034,Medical System,Command,Atlas Systems,2018,Maintenance,Poor,53.1,2026-10-27,2027-01-02,1
+TEST-E0141,TEST-U010,Vehicle,Mobility,Northstar Industries,2025,Operational,Good,26.0,2026-02-07,2026-05-11,0
+TEST-E0142,TEST-U001,Vehicle,Power,Vector Dynamics,2017,Maintenance,Good,32.2,2025-11-13,2026-03-18,12
+TEST-E0143,TEST-U040,Command System,Power,Vector Dynamics,2024,Operational,Poor,85.5,2025-12-10,2026-03-28,0
+TEST-E0144,TEST-U078,Engineering Kit,Command,Atlas Systems,2017,Operational,Fair,64.7,2026-12-08,2027-05-08,0
+TEST-E0145,TEST-U070,Vehicle,Mobility,Summit Technologies,2019,Operational,Fair,39.6,2026-11-25,2027-04-15,0
+TEST-E0146,TEST-U066,Medical System,Mobility,Summit Technologies,2023,Operational,Poor,89.6,2026-10-01,2026-12-10,0
+TEST-E0147,TEST-U032,Command System,Surveillance,Vector Dynamics,2022,Operational,Good,24.1,2026-09-04,2026-12-31,0
+TEST-E0148,TEST-U006,Radar,Surveillance,Northstar Industries,2017,Operational,Poor,73.6,2026-11-11,2027-01-10,0
+TEST-E0149,TEST-U083,Engineering Kit,Command,Northstar Industries,2023,Operational,Good,41.1,2027-01-25,2027-06-14,0
+TEST-E0150,TEST-U056,Engineering Kit,Communications,Northstar Industries,2025,Maintenance,Fair,32.5,2026-07-31,2026-12-21,40
+TEST-E0151,TEST-U099,Generator,Power,Atlas Systems,2025,Operational,Fair,37.3,2026-08-26,2026-12-12,0
+TEST-E0152,TEST-U080,Radio,Medical,Orion Works,2023,Operational,Fair,89.0,2027-02-28,2027-08-05,0
+TEST-E0153,TEST-U088,Command System,Surveillance,Northstar Industries,2017,Operational,Poor,25.1,2026-12-07,2027-05-19,0
+TEST-E0154,TEST-U037,Engineering Kit,Power,Orion Works,2018,Operational,Poor,26.0,2027-02-28,2027-06-20,0
+TEST-E0155,TEST-U075,Generator,Power,Summit Technologies,2021,Operational,Excellent,74.8,2026-12-01,2027-03-10,0
+TEST-E0156,TEST-U073,Engineering Kit,Medical,Orion Works,2022,Operational,Excellent,67.1,2026-12-30,2027-05-06,0
+TEST-E0157,TEST-U039,Generator,Mobility,Northstar Industries,2017,Operational,Good,60.0,2027-02-15,2027-03-26,0
+TEST-E0158,TEST-U015,Medical System,Power,Summit Technologies,2023,Operational,Poor,27.0,2026-03-22,2026-08-19,0
+TEST-E0159,TEST-U020,Command System,Command,Vector Dynamics,2023,Operational,Good,45.2,2026-03-13,2026-06-13,0
+TEST-E0160,TEST-U013,Radar,Surveillance,Vector Dynamics,2024,Operational,Good,92.7,2026-07-03,2026-08-07,0
+TEST-E0161,TEST-U047,Command System,Surveillance,Atlas Systems,2025,Operational,Fair,85.3,2026-07-05,2026-10-05,0
+TEST-E0162,TEST-U067,Command System,Surveillance,Atlas Systems,2023,Operational,Good,37.1,2026-03-01,2026-04-22,0
+TEST-E0163,TEST-U047,Medical System,Power,Northstar Industries,2017,Operational,Fair,67.1,2026-12-01,2027-03-10,0
+TEST-E0164,TEST-U072,Generator,Surveillance,Atlas Systems,2019,Operational,Poor,19.7,2026-09-20,2027-02-09,0
+TEST-E0165,TEST-U071,Vehicle,Power,Vector Dynamics,2018,Operational,Good,91.2,2026-06-23,2026-10-25,0
+TEST-E0166,TEST-U046,Drone,Mobility,Atlas Systems,2018,Operational,Excellent,32.0,2027-03-05,2027-08-01,0
+TEST-E0167,TEST-U089,Radio,Engineering,Atlas Systems,2021,Operational,Excellent,23.2,2026-01-30,2026-03-23,0
+TEST-E0168,TEST-U004,Radar,Medical,Northstar Industries,2017,Operational,Good,86.4,2027-01-11,2027-02-11,0
+TEST-E0169,TEST-U049,Radio,Power,Vector Dynamics,2019,Operational,Poor,59.8,2026-10-04,2026-12-10,0
+TEST-E0170,TEST-U014,Medical System,Surveillance,Atlas Systems,2019,Non-Operational,Fair,54.0,2025-12-28,2026-02-25,16
+TEST-E0171,TEST-U014,Medical System,Engineering,Northstar Industries,2019,Operational,Poor,65.6,2027-03-08,2027-07-06,0
+TEST-E0172,TEST-U037,Medical System,Communications,Orion Works,2025,Operational,Good,28.2,2025-11-12,2026-03-10,0
+TEST-E0173,TEST-U045,Radar,Power,Atlas Systems,2025,Operational,Poor,35.6,2026-08-06,2026-09-11,0
+TEST-E0174,TEST-U085,Medical System,Power,Orion Works,2019,Operational,Fair,32.3,2026-02-21,2026-05-07,0
+TEST-E0175,TEST-U015,Drone,Engineering,Orion Works,2025,Operational,Good,88.2,2025-12-14,2026-01-15,0
+TEST-E0176,TEST-U033,Vehicle,Medical,Orion Works,2020,Operational,Poor,44.7,2027-02-09,2027-07-17,0
+TEST-E0177,TEST-U017,Radio,Surveillance,Summit Technologies,2021,Non-Operational,Excellent,94.6,2025-10-28,2026-03-02,31
+TEST-E0178,TEST-U055,Radio,Medical,Vector Dynamics,2018,Operational,Poor,41.4,2026-07-24,2026-12-04,0
+TEST-E0179,TEST-U018,Radar,Mobility,Orion Works,2020,Operational,Poor,95.5,2026-01-28,2026-06-16,0
+TEST-E0180,TEST-U028,Drone,Command,Summit Technologies,2023,Operational,Fair,43.7,2025-11-03,2026-01-26,0
+TEST-E0181,TEST-U062,Vehicle,Medical,Atlas Systems,2023,Operational,Good,20.7,2026-01-12,2026-06-21,0
+TEST-E0182,TEST-U029,Command System,Medical,Orion Works,2020,Operational,Good,40.2,2025-12-23,2026-03-31,0
+TEST-E0183,TEST-U051,Radar,Communications,Summit Technologies,2023,Operational,Good,86.6,2026-02-02,2026-06-29,0
+TEST-E0184,TEST-U062,Vehicle,Engineering,Northstar Industries,2022,Operational,Good,51.9,2026-08-14,2027-01-27,0
+TEST-E0185,TEST-U063,Vehicle,Medical,Orion Works,2024,Operational,Poor,27.6,2026-06-05,2026-11-06,0
+TEST-E0186,TEST-U047,Radar,Mobility,Orion Works,2025,Operational,Poor,39.2,2026-03-18,2026-05-30,0
+TEST-E0187,TEST-U047,Drone,Communications,Atlas Systems,2021,Operational,Good,76.9,2026-03-13,2026-08-13,0
+TEST-E0188,TEST-U067,Radio,Power,Northstar Industries,2017,Operational,Poor,51.0,2027-02-16,2027-05-25,0
+TEST-E0189,TEST-U051,Vehicle,Mobility,Orion Works,2022,Operational,Good,81.5,2026-07-02,2026-10-11,0
+TEST-E0190,TEST-U009,Radar,Communications,Vector Dynamics,2022,Operational,Fair,37.5,2026-04-19,2026-06-14,0
+TEST-E0191,TEST-U010,Radar,Medical,Orion Works,2025,Operational,Fair,52.9,2026-07-07,2026-08-20,0
+TEST-E0192,TEST-U016,Engineering Kit,Medical,Atlas Systems,2021,Operational,Good,95.4,2026-11-24,2027-01-14,0
+TEST-E0193,TEST-U051,Drone,Command,Orion Works,2018,Non-Operational,Good,53.8,2026-05-11,2026-10-09,14
+TEST-E0194,TEST-U013,Radio,Medical,Atlas Systems,2019,Maintenance,Fair,83.6,2026-08-09,2027-01-07,1
+TEST-E0195,TEST-U077,Medical System,Command,Summit Technologies,2017,Operational,Fair,58.1,2026-06-06,2026-07-14,0
+TEST-E0196,TEST-U047,Medical System,Communications,Northstar Industries,2024,Operational,Good,32.3,2027-02-19,2027-04-04,0
+TEST-E0197,TEST-U019,Drone,Mobility,Atlas Systems,2020,Operational,Fair,53.3,2026-07-01,2026-07-31,0
+TEST-E0198,TEST-U062,Radio,Power,Orion Works,2022,Operational,Fair,26.6,2026-04-22,2026-09-11,0
+TEST-E0199,TEST-U058,Command System,Engineering,Vector Dynamics,2018,Operational,Poor,30.8,2027-01-18,2027-02-28,0
+TEST-E0200,TEST-U071,Medical System,Engineering,Vector Dynamics,2024,Operational,Good,52.2,2026-11-13,2027-03-15,0
+TEST-E0201,TEST-U051,Radio,Power,Vector Dynamics,2020,Operational,Poor,29.3,2026-12-24,2027-03-16,0
+TEST-E0202,TEST-U097,Drone,Medical,Atlas Systems,2020,Operational,Good,50.3,2026-01-25,2026-07-16,0
+TEST-E0203,TEST-U041,Radar,Power,Orion Works,2020,Maintenance,Fair,48.6,2026-01-31,2026-04-14,42
+TEST-E0204,TEST-U027,Engineering Kit,Engineering,Atlas Systems,2018,Operational,Poor,43.1,2026-08-01,2026-09-26,0
+TEST-E0205,TEST-U014,Engineering Kit,Engineering,Northstar Industries,2020,Operational,Poor,68.0,2027-02-02,2027-07-13,0
+TEST-E0206,TEST-U045,Radio,Medical,Summit Technologies,2019,Operational,Fair,62.9,2025-12-22,2026-05-21,0
+TEST-E0207,TEST-U028,Medical System,Medical,Summit Technologies,2019,Operational,Good,47.1,2025-11-27,2026-01-06,0
+TEST-E0208,TEST-U089,Generator,Command,Atlas Systems,2025,Operational,Excellent,66.6,2026-09-04,2026-10-21,0
+TEST-E0209,TEST-U028,Command System,Surveillance,Orion Works,2020,Operational,Excellent,17.3,2026-05-11,2026-10-03,0
+TEST-E0210,TEST-U016,Command System,Mobility,Summit Technologies,2022,Operational,Excellent,91.1,2026-11-23,2026-12-30,0
+TEST-E0211,TEST-U047,Engineering Kit,Surveillance,Summit Technologies,2020,Operational,Poor,45.9,2026-05-27,2026-10-10,0
+TEST-E0212,TEST-U010,Radio,Engineering,Summit Technologies,2021,Operational,Excellent,31.6,2027-03-07,2027-05-06,0
+TEST-E0213,TEST-U076,Radar,Medical,Atlas Systems,2022,Non-Operational,Fair,67.0,2025-11-01,2026-03-05,13
+TEST-E0214,TEST-U052,Drone,Command,Atlas Systems,2021,Operational,Excellent,46.8,2026-04-12,2026-08-03,0
+TEST-E0215,TEST-U043,Medical System,Engineering,Orion Works,2023,Non-Operational,Fair,70.7,2026-01-12,2026-07-01,35
+TEST-E0216,TEST-U029,Command System,Communications,Northstar Industries,2024,Non-Operational,Excellent,46.5,2026-09-14,2027-02-04,44
+TEST-E0217,TEST-U088,Vehicle,Medical,Orion Works,2021,Operational,Excellent,51.6,2027-01-07,2027-02-28,0
+TEST-E0218,TEST-U019,Engineering Kit,Medical,Orion Works,2018,Non-Operational,Good,74.8,2026-03-05,2026-07-05,36
+TEST-E0219,TEST-U001,Medical System,Power,Northstar Industries,2019,Operational,Poor,52.6,2026-12-08,2027-02-06,0
+TEST-E0220,TEST-U054,Radar,Communications,Northstar Industries,2019,Operational,Fair,85.9,2027-01-19,2027-05-25,0
+TEST-E0221,TEST-U042,Engineering Kit,Mobility,Vector Dynamics,2021,Operational,Excellent,47.6,2025-11-22,2026-02-09,0
+TEST-E0222,TEST-U052,Generator,Command,Vector Dynamics,2017,Operational,Fair,81.2,2026-09-11,2026-10-11,0
+TEST-E0223,TEST-U061,Vehicle,Command,Atlas Systems,2024,Operational,Excellent,70.4,2026-03-19,2026-09-03,0
+TEST-E0224,TEST-U046,Drone,Power,Summit Technologies,2023,Operational,Fair,16.3,2025-11-14,2026-03-23,0
+TEST-E0225,TEST-U031,Medical System,Command,Summit Technologies,2021,Operational,Fair,21.7,2026-12-24,2027-04-22,0
+TEST-E0226,TEST-U072,Generator,Command,Atlas Systems,2021,Operational,Poor,17.5,2025-12-15,2026-01-27,0
+TEST-E0227,TEST-U058,Engineering Kit,Engineering,Orion Works,2017,Operational,Poor,52.2,2026-04-15,2026-07-10,0
+TEST-E0228,TEST-U082,Generator,Engineering,Summit Technologies,2025,Maintenance,Good,86.4,2027-01-20,2027-04-11,41
+TEST-E0229,TEST-U097,Generator,Power,Orion Works,2025,Operational,Excellent,71.7,2025-11-21,2026-01-15,0
+TEST-E0230,TEST-U081,Radar,Surveillance,Northstar Industries,2021,Operational,Poor,24.8,2026-09-25,2026-12-25,0
+TEST-E0231,TEST-U076,Engineering Kit,Command,Northstar Industries,2020,Operational,Good,31.6,2026-07-06,2026-12-03,0
+TEST-E0232,TEST-U091,Medical System,Engineering,Orion Works,2018,Operational,Excellent,38.4,2026-08-19,2027-01-31,0
+TEST-E0233,TEST-U094,Vehicle,Mobility,Northstar Industries,2025,Operational,Good,56.0,2027-02-05,2027-06-09,0
+TEST-E0234,TEST-U009,Generator,Medical,Northstar Industries,2019,Operational,Good,19.9,2026-07-03,2026-09-19,0
+TEST-E0235,TEST-U050,Radar,Command,Atlas Systems,2017,Operational,Fair,69.1,2026-11-08,2027-03-21,0
+TEST-E0236,TEST-U080,Vehicle,Mobility,Orion Works,2023,Operational,Excellent,77.1,2026-08-25,2026-09-25,0
+TEST-E0237,TEST-U081,Command System,Communications,Vector Dynamics,2019,Operational,Poor,23.9,2026-07-08,2026-10-26,0
+TEST-E0238,TEST-U025,Drone,Command,Northstar Industries,2020,Operational,Good,31.5,2026-04-30,2026-06-05,0
+TEST-E0239,TEST-U032,Medical System,Power,Atlas Systems,2021,Operational,Good,60.0,2026-08-28,2026-12-27,0
+TEST-E0240,TEST-U077,Medical System,Surveillance,Atlas Systems,2024,Operational,Poor,44.7,2025-10-31,2026-01-21,0
+TEST-E0241,TEST-U074,Radar,Command,Summit Technologies,2020,Operational,Good,26.8,2026-03-13,2026-04-30,0
+TEST-E0242,TEST-U066,Engineering Kit,Mobility,Vector Dynamics,2017,Operational,Good,25.5,2026-10-06,2026-11-18,0
+TEST-E0243,TEST-U039,Radar,Command,Orion Works,2018,Operational,Fair,26.2,2026-01-02,2026-07-01,0
+TEST-E0244,TEST-U068,Command System,Engineering,Northstar Industries,2018,Non-Operational,Good,32.8,2026-01-24,2026-06-18,30
+TEST-E0245,TEST-U008,Generator,Command,Orion Works,2019,Maintenance,Good,53.7,2026-04-29,2026-09-24,9
+TEST-E0246,TEST-U081,Engineering Kit,Engineering,Vector Dynamics,2017,Operational,Fair,15.5,2026-09-10,2027-02-04,0
+TEST-E0247,TEST-U083,Drone,Engineering,Northstar Industries,2022,Operational,Excellent,58.5,2026-08-29,2027-02-08,0
+TEST-E0248,TEST-U087,Drone,Command,Summit Technologies,2019,Operational,Poor,82.4,2026-08-01,2026-10-02,0
+TEST-E0249,TEST-U030,Vehicle,Command,Vector Dynamics,2020,Operational,Poor,72.9,2026-06-08,2026-07-12,0
+TEST-E0250,TEST-U043,Vehicle,Mobility,Vector Dynamics,2024,Operational,Excellent,95.6,2027-01-31,2027-05-21,0
+TEST-E0251,TEST-U042,Command System,Medical,Vector Dynamics,2025,Operational,Poor,75.6,2026-10-23,2027-02-08,0
+TEST-E0252,TEST-U064,Drone,Power,Summit Technologies,2022,Maintenance,Fair,34.3,2026-01-23,2026-07-13,37
+TEST-E0253,TEST-U065,Radio,Medical,Orion Works,2018,Operational,Fair,69.6,2027-02-22,2027-07-04,0
+TEST-E0254,TEST-U022,Vehicle,Communications,Atlas Systems,2022,Operational,Excellent,96.8,2026-08-02,2026-10-24,0
+TEST-E0255,TEST-U076,Radar,Engineering,Orion Works,2023,Operational,Poor,27.4,2026-04-15,2026-06-15,0
+TEST-E0256,TEST-U059,Vehicle,Mobility,Northstar Industries,2019,Operational,Poor,30.3,2026-07-13,2026-11-10,0
+TEST-E0257,TEST-U034,Radar,Mobility,Orion Works,2020,Operational,Poor,44.5,2025-12-18,2026-04-30,0
+TEST-E0258,TEST-U066,Command System,Communications,Orion Works,2023,Operational,Fair,95.9,2026-09-15,2026-11-23,0
+TEST-E0259,TEST-U085,Generator,Power,Orion Works,2021,Operational,Poor,92.8,2026-09-09,2026-11-16,0
+TEST-E0260,TEST-U021,Vehicle,Power,Vector Dynamics,2023,Operational,Good,90.5,2026-09-20,2027-02-13,0
+TEST-E0261,TEST-U016,Engineering Kit,Command,Vector Dynamics,2023,Operational,Poor,77.4,2026-10-26,2027-04-15,0
+TEST-E0262,TEST-U055,Drone,Command,Atlas Systems,2024,Operational,Poor,33.2,2026-02-18,2026-06-28,0
+TEST-E0263,TEST-U081,Engineering Kit,Engineering,Orion Works,2022,Operational,Poor,58.9,2026-01-20,2026-04-28,0
+TEST-E0264,TEST-U021,Medical System,Engineering,Summit Technologies,2021,Operational,Excellent,16.0,2026-10-27,2026-12-01,0
+TEST-E0265,TEST-U049,Radar,Medical,Vector Dynamics,2017,Operational,Good,43.2,2025-11-14,2026-01-25,0
+TEST-E0266,TEST-U063,Medical System,Surveillance,Orion Works,2021,Operational,Excellent,23.6,2027-03-08,2027-06-11,0
+TEST-E0267,TEST-U001,Radio,Medical,Vector Dynamics,2020,Operational,Good,61.9,2025-11-19,2026-01-31,0
+TEST-E0268,TEST-U027,Radio,Engineering,Northstar Industries,2023,Operational,Good,33.2,2026-10-29,2026-12-26,0
+TEST-E0269,TEST-U074,Engineering Kit,Command,Vector Dynamics,2021,Operational,Fair,34.4,2026-08-04,2026-11-05,0
+TEST-E0270,TEST-U067,Command System,Command,Northstar Industries,2019,Non-Operational,Good,34.8,2026-01-27,2026-03-26,18
+TEST-E0271,TEST-U052,Generator,Surveillance,Atlas Systems,2024,Operational,Good,65.6,2026-02-28,2026-07-31,0
+TEST-E0272,TEST-U002,Medical System,Command,Northstar Industries,2023,Maintenance,Excellent,97.4,2025-12-27,2026-06-08,33
+TEST-E0273,TEST-U006,Vehicle,Surveillance,Summit Technologies,2019,Operational,Excellent,72.4,2026-10-30,2026-12-21,0
+TEST-E0274,TEST-U018,Medical System,Medical,Summit Technologies,2019,Operational,Fair,94.9,2026-03-27,2026-04-27,0
+TEST-E0275,TEST-U006,Medical System,Medical,Vector Dynamics,2024,Operational,Poor,45.3,2026-05-25,2026-10-15,0
+TEST-E0276,TEST-U016,Generator,Surveillance,Northstar Industries,2021,Operational,Fair,41.2,2026-04-03,2026-07-29,0
+TEST-E0277,TEST-U073,Generator,Engineering,Northstar Industries,2018,Operational,Excellent,62.2,2026-11-16,2027-03-23,0
+TEST-E0278,TEST-U086,Medical System,Surveillance,Orion Works,2019,Operational,Fair,57.6,2026-04-25,2026-08-23,0
+TEST-E0279,TEST-U084,Drone,Mobility,Vector Dynamics,2020,Operational,Excellent,75.3,2026-12-17,2027-03-18,0
+TEST-E0280,TEST-U015,Generator,Command,Atlas Systems,2020,Non-Operational,Excellent,67.5,2026-06-21,2026-08-15,22
+TEST-E0281,TEST-U092,Generator,Engineering,Orion Works,2018,Non-Operational,Excellent,20.1,2026-08-26,2026-11-27,33
+TEST-E0282,TEST-U091,Radio,Mobility,Vector Dynamics,2024,Non-Operational,Excellent,73.7,2025-12-31,2026-03-29,31
+TEST-E0283,TEST-U075,Radar,Surveillance,Summit Technologies,2017,Operational,Excellent,54.6,2026-07-12,2026-09-11,0
+TEST-E0284,TEST-U049,Command System,Medical,Vector Dynamics,2018,Non-Operational,Fair,79.5,2026-05-03,2026-10-06,36
+TEST-E0285,TEST-U011,Command System,Medical,Vector Dynamics,2024,Operational,Excellent,35.6,2026-06-19,2026-11-19,0
+TEST-E0286,TEST-U082,Medical System,Communications,Summit Technologies,2017,Non-Operational,Excellent,69.4,2026-11-04,2027-04-06,38
+TEST-E0287,TEST-U097,Medical System,Medical,Atlas Systems,2021,Operational,Poor,18.1,2026-09-16,2026-11-15,0
+TEST-E0288,TEST-U061,Generator,Communications,Orion Works,2017,Operational,Good,90.1,2025-10-30,2025-12-16,0
+TEST-E0289,TEST-U006,Engineering Kit,Communications,Summit Technologies,2023,Operational,Fair,69.1,2026-07-08,2026-08-22,0
+TEST-E0290,TEST-U038,Generator,Command,Northstar Industries,2020,Operational,Good,62.3,2026-08-02,2026-09-07,0
+TEST-E0291,TEST-U045,Medical System,Command,Vector Dynamics,2021,Operational,Poor,70.4,2026-12-19,2027-01-20,0
+TEST-E0292,TEST-U019,Radar,Mobility,Northstar Industries,2022,Operational,Fair,38.3,2026-08-20,2026-10-30,0
+TEST-E0293,TEST-U063,Radar,Power,Vector Dynamics,2018,Operational,Poor,27.9,2026-09-03,2027-02-07,0
+TEST-E0294,TEST-U040,Engineering Kit,Mobility,Summit Technologies,2021,Operational,Excellent,72.3,2026-10-11,2026-12-17,0
+TEST-E0295,TEST-U040,Command System,Command,Summit Technologies,2017,Operational,Good,65.1,2026-02-09,2026-05-30,0
+TEST-E0296,TEST-U007,Drone,Medical,Atlas Systems,2018,Operational,Fair,44.8,2026-10-27,2027-01-20,0
+TEST-E0297,TEST-U077,Vehicle,Power,Orion Works,2025,Operational,Good,18.0,2025-12-04,2026-05-25,0
+TEST-E0298,TEST-U047,Generator,Medical,Northstar Industries,2025,Operational,Excellent,63.0,2026-08-14,2026-12-02,0
+TEST-E0299,TEST-U014,Command System,Command,Vector Dynamics,2022,Operational,Fair,62.6,2027-01-10,2027-02-14,0
+TEST-E0300,TEST-U047,Radio,Power,Atlas Systems,2022,Non-Operational,Fair,18.6,2026-07-05,2026-11-11,23

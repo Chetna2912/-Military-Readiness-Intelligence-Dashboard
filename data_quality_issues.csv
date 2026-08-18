@@ -1,0 +1,6 @@
+dataset,issue_type,description
+units,duplicate_key,Duplicate unit_id present in raw layer
+personnel,duplicate_key,Duplicate personnel_id present in raw layer
+equipment,duplicate_key,Duplicate equipment_id present in raw layer
+maintenance,duplicate_key,Duplicate maintenance_id present in raw layer
+training,duplicate_key,Duplicate training_id present in raw layer
