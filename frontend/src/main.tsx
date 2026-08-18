@@ -69,7 +69,7 @@ function Table({
         <thead>
           <tr>
             {columns.map((column) => (
-              <th key={column}>{column.replaceAll("_", " ")}</th>
+              <th key={column}>{column.replace(/_/g, " ")}</th>
             ))}
           </tr>
         </thead>
