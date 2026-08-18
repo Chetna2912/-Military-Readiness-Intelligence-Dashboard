@@ -41,22 +41,59 @@ FastAPI backend
 SQLite
 data/generated/readiness.db
 
+## 🧰 Tech Stack
 
-## How to Run the Project
+**Frontend**
+- React
+- TypeScript
+- Vite
+- Recharts
+- CSS
 
-### Prerequisites
+**Backend**
+- Python
+- FastAPI
+- Pydantic
+- Uvicorn
+- python-multipart
 
-Make sure the following are installed:
+**Database**
+- SQLite
+- SQL
 
-- Python 3.9+
-- Node.js 18+
-- npm
-- Git
+**Testing & Deployment**
+- pytest
+- Docker
+- GitHub
+- Hugging Face Spaces
 
-You can verify the installations with:
 
-```bash
-python3 --version
-node --version
-npm --version
-git --version
+## 🔄 Workflow
+
+```text
+CSV Data
+   ↓
+Upload & Review
+   ↓
+Validation
+   ↓
+Preview
+   ↓
+SQLite Database
+   ↓
+FastAPI API
+   ↓
+React Dashboard
+   ↓
+KPIs / Charts / Alerts / Export
+
+## How to run
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+pytest -q
+python -m uvicorn backend.app.main:app --reload
+
+cd frontend
+npm install
+npm run dev
