@@ -49,13 +49,20 @@ The application combines a FastAPI backend, SQLite database, and React/Vite fron
 
 ## How to run
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 python -m pip install -r requirements.txt
+
 pytest -q
+
 python -m uvicorn backend.app.main:app --reload
 
+
 cd frontend
+
 npm install
+
 npm run dev
 
 
